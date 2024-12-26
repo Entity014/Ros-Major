@@ -1,5 +1,0 @@
-[console_scripts]
-client = assign2_650610841.master_650610841:main
-server = assign2_650610841.butler_650610841:main
-subscriber = assign2_650610841.listener_650610841:main
-

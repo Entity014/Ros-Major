@@ -1,5 +1,0 @@
-[console_scripts]
-Pnode = assign1_650610832.whisper_650610832:main
-S1node = assign1_650610832.hearer1_650610832:main
-S2node = assign1_650610832.hearer2_650610832:main
-
