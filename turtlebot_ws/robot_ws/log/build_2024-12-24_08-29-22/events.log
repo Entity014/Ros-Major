@@ -1,0 +1,509 @@
+[0.000000] (-) TimerEvent: {}
+[0.000784] (assign1_650610832) JobQueued: {'identifier': 'assign1_650610832', 'dependencies': OrderedDict()}
+[0.001330] (assign1_650610841) JobQueued: {'identifier': 'assign1_650610841', 'dependencies': OrderedDict()}
+[0.001906] (myword_650610841) JobQueued: {'identifier': 'myword_650610841', 'dependencies': OrderedDict()}
+[0.002238] (assign2_650610841) JobQueued: {'identifier': 'assign2_650610841', 'dependencies': OrderedDict([('myword_650610841', '/home/robot_ws/install/myword_650610841')])}
+[0.002666] (myword_650610841) JobStarted: {'identifier': 'myword_650610841'}
+[0.083927] (assign1_650610832) JobStarted: {'identifier': 'assign1_650610832'}
+[0.096980] (-) TimerEvent: {}
+[0.197832] (-) TimerEvent: {}
+[0.224584] (assign1_650610841) JobStarted: {'identifier': 'assign1_650610841'}
+[0.297964] (-) TimerEvent: {}
+[0.357819] (myword_650610841) JobProgress: {'identifier': 'myword_650610841', 'progress': 'cmake'}
+[0.398236] (-) TimerEvent: {}
+[0.420466] (myword_650610841) JobProgress: {'identifier': 'myword_650610841', 'progress': 'build'}
+[0.427815] (myword_650610841) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot_ws/build/myword_650610841', '--', '-j16', '-l16'], 'cwd': '/home/robot_ws/build/myword_650610841', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot_ws/install/myword_650610841/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-root'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/robot_ws/install/assign2_650610841:/home/robot_ws/install/myword_650610841:/home/robot_ws/install/assign1_650610841:/home/robot_ws/install/assign1_650610832:/opt/ros/humble'), ('NO_AT_BRIDGE', '1'), ('PWD', '/home/robot_ws/build/myword_650610841'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/robot_ws/install/assign2_650610841/lib/python3.10/site-packages:/home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages:/home/robot_ws/install/assign1_650610841/lib/python3.10/site-packages:/home/robot_ws/install/assign1_650610832/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robot_ws/install/myword_650610841:/home/robot_ws/install/assign2_650610841:/home/robot_ws/install/assign1_650610841:/home/robot_ws/install/assign1_650610832:/opt/ros/humble')]), 'shell': False}
+[0.498361] (-) TimerEvent: {}
+[0.599175] (-) TimerEvent: {}
+[0.700005] (-) TimerEvent: {}
+[0.800775] (-) TimerEvent: {}
+[0.901543] (-) TimerEvent: {}
+[1.002369] (-) TimerEvent: {}
+[1.103181] (-) TimerEvent: {}
+[1.204168] (-) TimerEvent: {}
+[1.305168] (-) TimerEvent: {}
+[1.406457] (-) TimerEvent: {}
+[1.507477] (-) TimerEvent: {}
+[1.608327] (-) TimerEvent: {}
+[1.709699] (-) TimerEvent: {}
+[1.810704] (-) TimerEvent: {}
+[1.911935] (-) TimerEvent: {}
+[2.012936] (-) TimerEvent: {}
+[2.113891] (-) TimerEvent: {}
+[2.214977] (-) TimerEvent: {}
+[2.315706] (-) TimerEvent: {}
+[2.416711] (-) TimerEvent: {}
+[2.517812] (-) TimerEvent: {}
+[2.618834] (-) TimerEvent: {}
+[2.708489] (myword_650610841) StdoutLine: {'line': b'[  2%] Built target myword_650610841__cpp\n'}
+[2.711101] (myword_650610841) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target myword_650610841__rosidl_generator_c\x1b[0m\n'}
+[2.712797] (myword_650610841) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target myword_650610841__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.716065] (myword_650610841) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target myword_650610841__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.718386] (myword_650610841) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target myword_650610841__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.720362] (-) TimerEvent: {}
+[2.721156] (myword_650610841) StdoutLine: {'line': b'[ 12%] Built target myword_650610841__rosidl_generator_c\n'}
+[2.723191] (myword_650610841) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target myword_650610841__rosidl_typesupport_c\x1b[0m\n'}
+[2.725330] (myword_650610841) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target myword_650610841__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.727099] (myword_650610841) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target myword_650610841__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.729000] (myword_650610841) StdoutLine: {'line': b'[ 23%] Built target myword_650610841__rosidl_typesupport_cpp\n'}
+[2.730833] (myword_650610841) StdoutLine: {'line': b'[ 33%] Built target myword_650610841__rosidl_typesupport_introspection_cpp\n'}
+[2.732344] (myword_650610841) StdoutLine: {'line': b'[ 43%] Built target myword_650610841__rosidl_typesupport_c\n'}
+[2.734268] (myword_650610841) StdoutLine: {'line': b'[ 53%] Built target myword_650610841__rosidl_typesupport_fastrtps_cpp\n'}
+[2.735633] (myword_650610841) StdoutLine: {'line': b'[ 64%] Built target myword_650610841__rosidl_typesupport_introspection_c\n'}
+[2.747540] (myword_650610841) StdoutLine: {'line': b'[ 64%] Built target ament_cmake_python_copy_myword_650610841\n'}
+[2.820491] (-) TimerEvent: {}
+[2.883157] (myword_650610841) StdoutLine: {'line': b'[ 74%] Built target myword_650610841__rosidl_typesupport_fastrtps_c\n'}
+[2.920608] (-) TimerEvent: {}
+[3.021767] (-) TimerEvent: {}
+[3.036341] (myword_650610841) StdoutLine: {'line': b'[ 74%] Built target myword_650610841\n'}
+[3.121935] (-) TimerEvent: {}
+[3.222816] (-) TimerEvent: {}
+[3.312017] (myword_650610841) StdoutLine: {'line': b'[ 76%] Built target myword_650610841__py\n'}
+[3.322985] (-) TimerEvent: {}
+[3.423572] (-) TimerEvent: {}
+[3.524285] (-) TimerEvent: {}
+[3.566814] (myword_650610841) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target myword_650610841__rosidl_generator_py\x1b[0m\n'}
+[3.624447] (-) TimerEvent: {}
+[3.725085] (-) TimerEvent: {}
+[3.825908] (-) TimerEvent: {}
+[3.926640] (-) TimerEvent: {}
+[4.027608] (-) TimerEvent: {}
+[4.100917] (myword_650610841) StdoutLine: {'line': b'[ 84%] Built target myword_650610841__rosidl_generator_py\n'}
+[4.127756] (-) TimerEvent: {}
+[4.228699] (-) TimerEvent: {}
+[4.329588] (-) TimerEvent: {}
+[4.332939] (myword_650610841) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target myword_650610841__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[4.337958] (myword_650610841) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target myword_650610841__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[4.341764] (myword_650610841) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target myword_650610841__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[4.353453] (myword_650610841) StdoutLine: {'line': b'running egg_info\n'}
+[4.359854] (myword_650610841) StdoutLine: {'line': b'writing myword_650610841.egg-info/PKG-INFO\n'}
+[4.371636] (myword_650610841) StdoutLine: {'line': b'writing dependency_links to myword_650610841.egg-info/dependency_links.txt\n'}
+[4.389980] (myword_650610841) StdoutLine: {'line': b'writing top-level names to myword_650610841.egg-info/top_level.txt\n'}
+[4.429746] (-) TimerEvent: {}
+[4.482151] (myword_650610841) StdoutLine: {'line': b"reading manifest file 'myword_650610841.egg-info/SOURCES.txt'\n"}
+[4.529872] (-) TimerEvent: {}
+[4.591132] (myword_650610841) StdoutLine: {'line': b"writing manifest file 'myword_650610841.egg-info/SOURCES.txt'\n"}
+[4.629987] (-) TimerEvent: {}
+[4.668835] (myword_650610841) StdoutLine: {'line': b'[ 84%] Built target ament_cmake_python_build_myword_650610841_egg\n'}
+[4.730117] (-) TimerEvent: {}
+[4.830982] (-) TimerEvent: {}
+[4.931915] (-) TimerEvent: {}
+[4.938106] (myword_650610841) StdoutLine: {'line': b'[100%] Built target myword_650610841__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.939514] (myword_650610841) StdoutLine: {'line': b'[100%] Built target myword_650610841__rosidl_typesupport_introspection_c__pyext\n'}
+[4.940590] (myword_650610841) StdoutLine: {'line': b'[100%] Built target myword_650610841__rosidl_typesupport_c__pyext\n'}
+[5.032018] (-) TimerEvent: {}
+[5.132717] (-) TimerEvent: {}
+[5.193722] (myword_650610841) CommandEnded: {'returncode': 0}
+[5.232877] (-) TimerEvent: {}
+[5.237388] (myword_650610841) JobProgress: {'identifier': 'myword_650610841', 'progress': 'install'}
+[5.265944] (myword_650610841) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot_ws/build/myword_650610841'], 'cwd': '/home/robot_ws/build/myword_650610841', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot_ws/install/myword_650610841/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-root'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/robot_ws/install/assign2_650610841:/home/robot_ws/install/myword_650610841:/home/robot_ws/install/assign1_650610841:/home/robot_ws/install/assign1_650610832:/opt/ros/humble'), ('NO_AT_BRIDGE', '1'), ('PWD', '/home/robot_ws/build/myword_650610841'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/robot_ws/install/assign2_650610841/lib/python3.10/site-packages:/home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages:/home/robot_ws/install/assign1_650610841/lib/python3.10/site-packages:/home/robot_ws/install/assign1_650610832/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robot_ws/install/myword_650610841:/home/robot_ws/install/assign2_650610841:/home/robot_ws/install/assign1_650610841:/home/robot_ws/install/assign1_650610832:/opt/ros/humble')]), 'shell': False}
+[5.311393] (myword_650610841) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.332974] (-) TimerEvent: {}
+[5.350223] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/ament_index/resource_index/rosidl_interfaces/myword_650610841\n'}
+[5.371771] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841\n'}
+[5.399775] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg\n'}
+[5.432022] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail\n'}
+[5.433532] (-) TimerEvent: {}
+[5.478813] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/num__functions.c\n'}
+[5.515208] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/num__functions.h\n'}
+[5.533640] (-) TimerEvent: {}
+[5.553346] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/num__struct.h\n'}
+[5.591493] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/num__type_support.h\n'}
+[5.623259] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/num.h\n'}
+[5.633730] (-) TimerEvent: {}
+[5.654996] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.675955] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv\n'}
+[5.709020] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail\n'}
+[5.733851] (-) TimerEvent: {}
+[5.751889] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_four_int__functions.c\n'}
+[5.791899] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_four_int__functions.h\n'}
+[5.830797] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_four_int__struct.h\n'}
+[5.833937] (-) TimerEvent: {}
+[5.867330] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_four_int__type_support.h\n'}
+[5.904768] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_three_int__functions.c\n'}
+[5.934057] (-) TimerEvent: {}
+[5.938574] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_three_int__functions.h\n'}
+[5.977455] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_three_int__struct.h\n'}
+[6.013805] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_three_int__type_support.h\n'}
+[6.034165] (-) TimerEvent: {}
+[6.045478] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/sum_four_int.h\n'}
+[6.072922] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/sum_three_int.h\n'}
+[6.091385] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/environment/library_path.sh\n'}
+[6.115874] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/environment/library_path.dsv\n'}
+[6.134290] (-) TimerEvent: {}
+[6.165783] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/lib/libmyword_650610841__rosidl_generator_c.so\n'}
+[6.217389] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841\n'}
+[6.234402] (-) TimerEvent: {}
+[6.245309] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg\n'}
+[6.278193] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail\n'}
+[6.324688] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[6.334546] (-) TimerEvent: {}
+[6.358603] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.381248] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv\n'}
+[6.417618] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail\n'}
+[6.434664] (-) TimerEvent: {}
+[6.464849] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_four_int__rosidl_typesupport_fastrtps_c.h\n'}
+[6.501176] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_three_int__rosidl_typesupport_fastrtps_c.h\n'}
+[6.534811] (-) TimerEvent: {}
+[6.570221] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/lib/libmyword_650610841__rosidl_typesupport_fastrtps_c.so\n'}
+[6.625393] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841\n'}
+[6.634896] (-) TimerEvent: {}
+[6.653121] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg\n'}
+[6.688269] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail\n'}
+[6.735035] (-) TimerEvent: {}
+[6.735987] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[6.754776] (assign1_650610832) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/assign1_650610832', 'build', '--build-base', '/home/robot_ws/build/assign1_650610832/build', 'install', '--record', '/home/robot_ws/build/assign1_650610832/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/robot_ws/src/assign1_650610832', 'env': {'HOSTNAME': 'docker-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robot_ws/install/myword_650610841/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home', 'ROS_PYTHON_VERSION': '3', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/robot_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'DISPLAY': 'host.docker.internal:0.0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/robot_ws/install/assign2_650610841:/home/robot_ws/install/myword_650610841:/home/robot_ws/install/assign1_650610841:/home/robot_ws/install/assign1_650610832:/opt/ros/humble', 'NO_AT_BRIDGE': '1', 'PWD': '/home/robot_ws/build/assign1_650610832', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/robot_ws/build/assign1_650610832/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot_ws/install/assign1_650610832/lib/python3.10/site-packages:/home/robot_ws/install/assign2_650610841/lib/python3.10/site-packages:/home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages:/home/robot_ws/install/assign1_650610841/lib/python3.10/site-packages:/home/robot_ws/install/assign1_650610832/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robot_ws/install/myword_650610841'}, 'shell': False}
+[6.815992] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/num__type_support.c\n'}
+[6.817616] (assign1_650610841) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/assign1_650610841', 'build', '--build-base', '/home/robot_ws/build/assign1_650610841/build', 'install', '--record', '/home/robot_ws/build/assign1_650610841/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/robot_ws/src/assign1_650610841', 'env': {'HOSTNAME': 'docker-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robot_ws/install/myword_650610841/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home', 'ROS_PYTHON_VERSION': '3', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/robot_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'DISPLAY': 'host.docker.internal:0.0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/robot_ws/install/assign2_650610841:/home/robot_ws/install/myword_650610841:/home/robot_ws/install/assign1_650610841:/home/robot_ws/install/assign1_650610832:/opt/ros/humble', 'NO_AT_BRIDGE': '1', 'PWD': '/home/robot_ws/build/assign1_650610841', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/robot_ws/build/assign1_650610841/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot_ws/install/assign1_650610841/lib/python3.10/site-packages:/home/robot_ws/install/assign2_650610841/lib/python3.10/site-packages:/home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages:/home/robot_ws/install/assign1_650610841/lib/python3.10/site-packages:/home/robot_ws/install/assign1_650610832/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robot_ws/install/myword_650610841'}, 'shell': False}
+[6.838751] (-) TimerEvent: {}
+[6.839173] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.840920] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv\n'}
+[6.869442] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail\n'}
+[6.917577] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_four_int__rosidl_typesupport_introspection_c.h\n'}
+[6.938918] (-) TimerEvent: {}
+[6.955053] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_four_int__type_support.c\n'}
+[6.998724] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_three_int__rosidl_typesupport_introspection_c.h\n'}
+[7.038360] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_three_int__type_support.c\n'}
+[7.040259] (-) TimerEvent: {}
+[7.086301] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/lib/libmyword_650610841__rosidl_typesupport_introspection_c.so\n'}
+[7.140409] (-) TimerEvent: {}
+[7.158515] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/lib/libmyword_650610841__rosidl_typesupport_c.so\n'}
+[7.202999] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841\n'}
+[7.228495] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg\n'}
+[7.240553] (-) TimerEvent: {}
+[7.270446] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail\n'}
+[7.317717] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/num__builder.hpp\n'}
+[7.340668] (-) TimerEvent: {}
+[7.354769] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/num__struct.hpp\n'}
+[7.397930] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/num__traits.hpp\n'}
+[7.437838] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/num__type_support.hpp\n'}
+[7.440754] (-) TimerEvent: {}
+[7.469083] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/num.hpp\n'}
+[7.500137] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.522498] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv\n'}
+[7.540878] (-) TimerEvent: {}
+[7.558839] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail\n'}
+[7.613610] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_four_int__builder.hpp\n'}
+[7.641065] (-) TimerEvent: {}
+[7.659180] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_four_int__struct.hpp\n'}
+[7.702658] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_four_int__traits.hpp\n'}
+[7.738460] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_four_int__type_support.hpp\n'}
+[7.741143] (-) TimerEvent: {}
+[7.779111] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_three_int__builder.hpp\n'}
+[7.817584] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_three_int__struct.hpp\n'}
+[7.841315] (-) TimerEvent: {}
+[7.854659] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_three_int__traits.hpp\n'}
+[7.893449] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_three_int__type_support.hpp\n'}
+[7.924889] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/sum_four_int.hpp\n'}
+[7.941412] (-) TimerEvent: {}
+[7.954030] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/sum_three_int.hpp\n'}
+[7.972030] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841\n'}
+[7.998367] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg\n'}
+[8.029567] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail\n'}
+[8.041550] (-) TimerEvent: {}
+[8.071520] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/dds_fastrtps\n'}
+[8.123782] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.141662] (-) TimerEvent: {}
+[8.153463] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.174171] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv\n'}
+[8.210801] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail\n'}
+[8.241807] (-) TimerEvent: {}
+[8.245827] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/dds_fastrtps\n'}
+[8.292914] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_four_int__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.329440] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_three_int__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.341898] (-) TimerEvent: {}
+[8.392788] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/lib/libmyword_650610841__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.442020] (-) TimerEvent: {}
+[8.449819] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841\n'}
+[8.471740] (assign1_650610832) StdoutLine: {'line': b'running egg_info\n'}
+[8.478772] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg\n'}
+[8.480624] (assign1_650610832) StdoutLine: {'line': b'writing ../../build/assign1_650610832/assign1_650610832.egg-info/PKG-INFO\n'}
+[8.488491] (assign1_650610832) StdoutLine: {'line': b'writing dependency_links to ../../build/assign1_650610832/assign1_650610832.egg-info/dependency_links.txt\n'}
+[8.497231] (assign1_650610832) StdoutLine: {'line': b'writing entry points to ../../build/assign1_650610832/assign1_650610832.egg-info/entry_points.txt\n'}
+[8.505000] (assign1_650610832) StdoutLine: {'line': b'writing requirements to ../../build/assign1_650610832/assign1_650610832.egg-info/requires.txt\n'}
+[8.511363] (assign1_650610832) StdoutLine: {'line': b'writing top-level names to ../../build/assign1_650610832/assign1_650610832.egg-info/top_level.txt\n'}
+[8.516621] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail\n'}
+[8.542143] (-) TimerEvent: {}
+[8.553752] (assign1_650610841) StdoutLine: {'line': b'running egg_info\n'}
+[8.563081] (assign1_650610841) StdoutLine: {'line': b'writing ../../build/assign1_650610841/assign1_650610841.egg-info/PKG-INFO\n'}
+[8.573875] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.576244] (assign1_650610841) StdoutLine: {'line': b'writing dependency_links to ../../build/assign1_650610841/assign1_650610841.egg-info/dependency_links.txt\n'}
+[8.580466] (assign1_650610832) StdoutLine: {'line': b"reading manifest file '../../build/assign1_650610832/assign1_650610832.egg-info/SOURCES.txt'\n"}
+[8.585130] (assign1_650610841) StdoutLine: {'line': b'writing entry points to ../../build/assign1_650610841/assign1_650610841.egg-info/entry_points.txt\n'}
+[8.593632] (assign1_650610841) StdoutLine: {'line': b'writing requirements to ../../build/assign1_650610841/assign1_650610841.egg-info/requires.txt\n'}
+[8.601401] (assign1_650610841) StdoutLine: {'line': b'writing top-level names to ../../build/assign1_650610841/assign1_650610841.egg-info/top_level.txt\n'}
+[8.626247] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/num__type_support.cpp\n'}
+[8.642296] (-) TimerEvent: {}
+[8.652462] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv\n'}
+[8.673000] (assign1_650610841) StdoutLine: {'line': b"reading manifest file '../../build/assign1_650610841/assign1_650610841.egg-info/SOURCES.txt'\n"}
+[8.682662] (assign1_650610832) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[8.690787] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail\n'}
+[8.724361] (assign1_650610832) StdoutLine: {'line': b"writing manifest file '../../build/assign1_650610832/assign1_650610832.egg-info/SOURCES.txt'\n"}
+[8.730112] (assign1_650610832) StdoutLine: {'line': b'running build\n'}
+[8.731701] (assign1_650610832) StdoutLine: {'line': b'running build_py\n'}
+[8.742405] (-) TimerEvent: {}
+[8.749410] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_four_int__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.769377] (assign1_650610841) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[8.794447] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_four_int__type_support.cpp\n'}
+[8.814653] (assign1_650610841) StdoutLine: {'line': b"writing manifest file '../../build/assign1_650610841/assign1_650610841.egg-info/SOURCES.txt'\n"}
+[8.821815] (assign1_650610841) StdoutLine: {'line': b'running build\n'}
+[8.824297] (assign1_650610841) StdoutLine: {'line': b'running build_py\n'}
+[8.838939] (assign1_650610832) StdoutLine: {'line': b'running install\n'}
+[8.841262] (assign1_650610832) StdoutLine: {'line': b'running install_lib\n'}
+[8.843792] (-) TimerEvent: {}
+[8.847110] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_three_int__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.853390] (assign1_650610841) StdoutLine: {'line': b'copying assign1_650610841/hearer1_650610841.py -> /home/robot_ws/build/assign1_650610841/build/lib/assign1_650610841\n'}
+[8.886929] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_three_int__type_support.cpp\n'}
+[8.944017] (-) TimerEvent: {}
+[8.951778] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/lib/libmyword_650610841__rosidl_typesupport_introspection_cpp.so\n'}
+[8.961288] (assign1_650610841) StdoutLine: {'line': b'running install\n'}
+[8.963121] (assign1_650610841) StdoutLine: {'line': b'running install_lib\n'}
+[9.023631] (assign1_650610841) StdoutLine: {'line': b'copying /home/robot_ws/build/assign1_650610841/build/lib/assign1_650610841/hearer1_650610841.py -> /home/robot_ws/install/assign1_650610841/lib/python3.10/site-packages/assign1_650610841\n'}
+[9.044168] (-) TimerEvent: {}
+[9.056166] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/lib/libmyword_650610841__rosidl_typesupport_cpp.so\n'}
+[9.101993] (assign1_650610832) StdoutLine: {'line': b'running install_data\n'}
+[9.122612] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/environment/pythonpath.sh\n'}
+[9.141728] (assign1_650610832) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.144254] (-) TimerEvent: {}
+[9.150516] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/environment/pythonpath.dsv\n'}
+[9.163619] (assign1_650610832) StdoutLine: {'line': b"removing '/home/robot_ws/install/assign1_650610832/lib/python3.10/site-packages/assign1_650610832-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.167810] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841-0.0.0-py3.10.egg-info\n'}
+[9.187970] (assign1_650610841) StdoutLine: {'line': b'byte-compiling /home/robot_ws/install/assign1_650610841/lib/python3.10/site-packages/assign1_650610841/hearer1_650610841.py to hearer1_650610841.cpython-310.pyc\n'}
+[9.195601] (myword_650610841) StdoutLine: {'line': b'-- Installing: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[9.244514] (-) TimerEvent: {}
+[9.257515] (assign1_650610832) StdoutLine: {'line': b'Copying ../../build/assign1_650610832/assign1_650610832.egg-info to /home/robot_ws/install/assign1_650610832/lib/python3.10/site-packages/assign1_650610832-0.0.0-py3.10.egg-info\n'}
+[9.271764] (myword_650610841) StdoutLine: {'line': b'-- Installing: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[9.315633] (assign1_650610841) StdoutLine: {'line': b'running install_data\n'}
+[9.344616] (-) TimerEvent: {}
+[9.353050] (myword_650610841) StdoutLine: {'line': b'-- Installing: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[9.358598] (assign1_650610841) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.382281] (assign1_650610841) StdoutLine: {'line': b"removing '/home/robot_ws/install/assign1_650610841/lib/python3.10/site-packages/assign1_650610841-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.429281] (myword_650610841) StdoutLine: {'line': b'-- Installing: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[9.444732] (-) TimerEvent: {}
+[9.474004] (assign1_650610841) StdoutLine: {'line': b'Copying ../../build/assign1_650610841/assign1_650610841.egg-info to /home/robot_ws/install/assign1_650610841/lib/python3.10/site-packages/assign1_650610841-0.0.0-py3.10.egg-info\n'}
+[9.491287] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841\n'}
+[9.509759] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/libmyword_650610841__rosidl_generator_py.so\n'}
+[9.522730] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/msg\n'}
+[9.544828] (-) TimerEvent: {}
+[9.551950] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/msg/_num.py\n'}
+[9.575618] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/msg/_num_s.c\n'}
+[9.598861] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/msg/__init__.py\n'}
+[9.615406] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/myword_650610841_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.630099] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/myword_650610841_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.636489] (assign1_650610832) StdoutLine: {'line': b'running install_scripts\n'}
+[9.644967] (-) TimerEvent: {}
+[9.646915] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/myword_650610841_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.659370] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/srv\n'}
+[9.689835] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/srv/_sum_four_int.py\n'}
+[9.712141] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/srv/_sum_four_int_s.c\n'}
+[9.736118] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/srv/_sum_three_int.py\n'}
+[9.745071] (-) TimerEvent: {}
+[9.760983] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/srv/_sum_three_int_s.c\n'}
+[9.783345] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/srv/__init__.py\n'}
+[9.797168] (assign1_650610832) StdoutLine: {'line': b'Installing Pnode script to /home/robot_ws/install/assign1_650610832/lib/assign1_650610832\n'}
+[9.801240] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/_myword_650610841_s.ep.rosidl_typesupport_c.c\n'}
+[9.813123] (assign1_650610832) StdoutLine: {'line': b'Installing S1node script to /home/robot_ws/install/assign1_650610832/lib/assign1_650610832\n'}
+[9.819999] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/_myword_650610841_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.830930] (assign1_650610832) StdoutLine: {'line': b'Installing S2node script to /home/robot_ws/install/assign1_650610832/lib/assign1_650610832\n'}
+[9.840468] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/_myword_650610841_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.844754] (assign1_650610841) StdoutLine: {'line': b'running install_scripts\n'}
+[9.846043] (-) TimerEvent: {}
+[9.854492] (assign1_650610832) StdoutLine: {'line': b"writing list of installed files to '/home/robot_ws/build/assign1_650610832/install.log'\n"}
+[9.861459] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/__init__.py\n'}
+[9.881648] (assign1_650610832) CommandEnded: {'returncode': 0}
+[9.946191] (-) TimerEvent: {}
+[9.993927] (assign1_650610841) StdoutLine: {'line': b'Installing hearer1 script to /home/robot_ws/install/assign1_650610841/lib/assign1_650610841\n'}
+[10.008042] (assign1_650610841) StdoutLine: {'line': b'Installing hearer2 script to /home/robot_ws/install/assign1_650610841/lib/assign1_650610841\n'}
+[10.019899] (assign1_650610841) StdoutLine: {'line': b'Installing whisper script to /home/robot_ws/install/assign1_650610841/lib/assign1_650610841\n'}
+[10.040044] (assign1_650610841) StdoutLine: {'line': b"writing list of installed files to '/home/robot_ws/build/assign1_650610841/install.log'\n"}
+[10.046278] (-) TimerEvent: {}
+[10.147453] (-) TimerEvent: {}
+[10.229090] (assign1_650610832) JobEnded: {'identifier': 'assign1_650610832', 'rc': 0}
+[10.243292] (assign1_650610841) CommandEnded: {'returncode': 0}
+[10.247541] (-) TimerEvent: {}
+[10.348303] (-) TimerEvent: {}
+[10.449042] (-) TimerEvent: {}
+[10.483909] (myword_650610841) StdoutLine: {'line': b"Listing '/home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841'...\n"}
+[10.485210] (myword_650610841) StdoutLine: {'line': b"Listing '/home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/msg'...\n"}
+[10.486170] (myword_650610841) StdoutLine: {'line': b"Listing '/home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/srv'...\n"}
+[10.543164] (assign1_650610841) JobEnded: {'identifier': 'assign1_650610841', 'rc': 0}
+[10.554990] (-) TimerEvent: {}
+[10.555517] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/myword_650610841_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.655203] (-) TimerEvent: {}
+[10.664802] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/myword_650610841_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.755366] (-) TimerEvent: {}
+[10.756039] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/myword_650610841_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.831923] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/lib/libmyword_650610841__rosidl_generator_py.so\n'}
+[10.855500] (-) TimerEvent: {}
+[10.882691] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/msg/Num.idl\n'}
+[10.906919] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/srv/SumFourInt.idl\n'}
+[10.937885] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/msg/Num.msg\n'}
+[10.955635] (-) TimerEvent: {}
+[10.971318] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/srv/SumFourInt.srv\n'}
+[10.994065] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/srv/SumFourInt_Request.msg\n'}
+[11.022210] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/srv/SumFourInt_Response.msg\n'}
+[11.055793] (-) TimerEvent: {}
+[11.056743] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/ament_index/resource_index/package_run_dependencies/myword_650610841\n'}
+[11.092885] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/ament_index/resource_index/parent_prefix_path/myword_650610841\n'}
+[11.110130] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/environment/ament_prefix_path.sh\n'}
+[11.130203] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/environment/ament_prefix_path.dsv\n'}
+[11.142653] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/environment/path.sh\n'}
+[11.155884] (-) TimerEvent: {}
+[11.161162] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/environment/path.dsv\n'}
+[11.176920] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/local_setup.bash\n'}
+[11.193356] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/local_setup.sh\n'}
+[11.212275] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/local_setup.zsh\n'}
+[11.229405] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/local_setup.dsv\n'}
+[11.246465] (myword_650610841) StdoutLine: {'line': b'-- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/package.dsv\n'}
+[11.256013] (-) TimerEvent: {}
+[11.328278] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/ament_index/resource_index/packages/myword_650610841\n'}
+[11.356244] (-) TimerEvent: {}
+[11.396319] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/export_myword_650610841__rosidl_generator_cExport.cmake\n'}
+[11.426750] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/export_myword_650610841__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.456384] (-) TimerEvent: {}
+[11.483385] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/export_myword_650610841__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.514230] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/export_myword_650610841__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.556735] (-) TimerEvent: {}
+[11.581875] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/myword_650610841__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.608694] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/myword_650610841__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.657031] (-) TimerEvent: {}
+[11.672111] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/myword_650610841__rosidl_typesupport_cExport.cmake\n'}
+[11.710378] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/myword_650610841__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.757205] (-) TimerEvent: {}
+[11.789972] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/export_myword_650610841__rosidl_generator_cppExport.cmake\n'}
+[11.857395] (-) TimerEvent: {}
+[11.879479] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/export_myword_650610841__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.908102] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/export_myword_650610841__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.957516] (-) TimerEvent: {}
+[11.969424] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/myword_650610841__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.002398] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/myword_650610841__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.057676] (-) TimerEvent: {}
+[12.073931] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/myword_650610841__rosidl_typesupport_cppExport.cmake\n'}
+[12.108477] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/myword_650610841__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.157969] (-) TimerEvent: {}
+[12.188536] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/export_myword_650610841__rosidl_generator_pyExport.cmake\n'}
+[12.221814] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/export_myword_650610841__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.241237] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/rosidl_cmake-extras.cmake\n'}
+[12.258123] (-) TimerEvent: {}
+[12.261489] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.279235] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.298107] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.316948] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.333633] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.352324] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.358209] (-) TimerEvent: {}
+[12.369279] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/myword_650610841Config.cmake\n'}
+[12.383456] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/myword_650610841Config-version.cmake\n'}
+[12.403798] (myword_650610841) StdoutLine: {'line': b'-- Up-to-date: /home/robot_ws/install/myword_650610841/share/myword_650610841/package.xml\n'}
+[12.440006] (myword_650610841) CommandEnded: {'returncode': 0}
+[12.458335] (-) TimerEvent: {}
+[12.559122] (-) TimerEvent: {}
+[12.659813] (-) TimerEvent: {}
+[12.761218] (-) TimerEvent: {}
+[12.862009] (-) TimerEvent: {}
+[12.963020] (-) TimerEvent: {}
+[13.063894] (-) TimerEvent: {}
+[13.164528] (-) TimerEvent: {}
+[13.265458] (-) TimerEvent: {}
+[13.366378] (-) TimerEvent: {}
+[13.467145] (-) TimerEvent: {}
+[13.508995] (myword_650610841) JobEnded: {'identifier': 'myword_650610841', 'rc': 0}
+[13.532239] (assign2_650610841) JobStarted: {'identifier': 'assign2_650610841'}
+[13.567379] (-) TimerEvent: {}
+[13.668181] (-) TimerEvent: {}
+[13.769287] (-) TimerEvent: {}
+[13.870324] (-) TimerEvent: {}
+[13.971048] (-) TimerEvent: {}
+[14.071937] (-) TimerEvent: {}
+[14.172718] (-) TimerEvent: {}
+[14.273474] (-) TimerEvent: {}
+[14.374304] (-) TimerEvent: {}
+[14.475039] (-) TimerEvent: {}
+[14.575939] (-) TimerEvent: {}
+[14.676630] (-) TimerEvent: {}
+[14.777403] (-) TimerEvent: {}
+[14.878197] (-) TimerEvent: {}
+[14.978975] (-) TimerEvent: {}
+[15.079644] (-) TimerEvent: {}
+[15.180265] (-) TimerEvent: {}
+[15.281151] (-) TimerEvent: {}
+[15.381824] (-) TimerEvent: {}
+[15.482513] (-) TimerEvent: {}
+[15.583367] (-) TimerEvent: {}
+[15.684007] (-) TimerEvent: {}
+[15.784911] (-) TimerEvent: {}
+[15.885815] (-) TimerEvent: {}
+[15.986520] (-) TimerEvent: {}
+[16.087415] (-) TimerEvent: {}
+[16.188164] (-) TimerEvent: {}
+[16.289267] (-) TimerEvent: {}
+[16.390341] (-) TimerEvent: {}
+[16.491230] (-) TimerEvent: {}
+[16.592020] (-) TimerEvent: {}
+[16.692609] (-) TimerEvent: {}
+[16.793525] (-) TimerEvent: {}
+[16.894169] (-) TimerEvent: {}
+[16.994895] (-) TimerEvent: {}
+[17.095741] (-) TimerEvent: {}
+[17.196803] (assign2_650610841) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/assign2_650610841', 'build', '--build-base', '/home/robot_ws/build/assign2_650610841/build', 'install', '--record', '/home/robot_ws/build/assign2_650610841/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/robot_ws/src/assign2_650610841', 'env': {'HOSTNAME': 'docker-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robot_ws/install/myword_650610841/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home', 'ROS_PYTHON_VERSION': '3', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/robot_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'DISPLAY': 'host.docker.internal:0.0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/robot_ws/install/assign2_650610841:/home/robot_ws/install/myword_650610841:/home/robot_ws/install/assign1_650610841:/home/robot_ws/install/assign1_650610832:/opt/ros/humble', 'NO_AT_BRIDGE': '1', 'PWD': '/home/robot_ws/build/assign2_650610841', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/robot_ws/build/assign2_650610841/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot_ws/install/assign2_650610841/lib/python3.10/site-packages:/home/robot_ws/install/assign2_650610841/lib/python3.10/site-packages:/home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages:/home/robot_ws/install/assign1_650610841/lib/python3.10/site-packages:/home/robot_ws/install/assign1_650610832/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robot_ws/install/myword_650610841'}, 'shell': False}
+[17.216562] (-) TimerEvent: {}
+[17.317171] (-) TimerEvent: {}
+[17.417771] (-) TimerEvent: {}
+[17.518502] (-) TimerEvent: {}
+[17.619334] (-) TimerEvent: {}
+[17.720136] (-) TimerEvent: {}
+[17.820821] (-) TimerEvent: {}
+[17.921718] (-) TimerEvent: {}
+[18.022478] (-) TimerEvent: {}
+[18.123405] (-) TimerEvent: {}
+[18.224499] (-) TimerEvent: {}
+[18.325447] (-) TimerEvent: {}
+[18.426369] (-) TimerEvent: {}
+[18.527442] (-) TimerEvent: {}
+[18.628353] (-) TimerEvent: {}
+[18.729186] (-) TimerEvent: {}
+[18.827131] (assign2_650610841) StdoutLine: {'line': b'running egg_info\n'}
+[18.829280] (-) TimerEvent: {}
+[18.836091] (assign2_650610841) StdoutLine: {'line': b'writing ../../build/assign2_650610841/assign2_650610841.egg-info/PKG-INFO\n'}
+[18.846577] (assign2_650610841) StdoutLine: {'line': b'writing dependency_links to ../../build/assign2_650610841/assign2_650610841.egg-info/dependency_links.txt\n'}
+[18.855916] (assign2_650610841) StdoutLine: {'line': b'writing entry points to ../../build/assign2_650610841/assign2_650610841.egg-info/entry_points.txt\n'}
+[18.864076] (assign2_650610841) StdoutLine: {'line': b'writing requirements to ../../build/assign2_650610841/assign2_650610841.egg-info/requires.txt\n'}
+[18.870461] (assign2_650610841) StdoutLine: {'line': b'writing top-level names to ../../build/assign2_650610841/assign2_650610841.egg-info/top_level.txt\n'}
+[18.923474] (assign2_650610841) StdoutLine: {'line': b"reading manifest file '../../build/assign2_650610841/assign2_650610841.egg-info/SOURCES.txt'\n"}
+[18.929485] (-) TimerEvent: {}
+[18.991129] (assign2_650610841) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[19.020718] (assign2_650610841) StdoutLine: {'line': b"writing manifest file '../../build/assign2_650610841/assign2_650610841.egg-info/SOURCES.txt'\n"}
+[19.026337] (assign2_650610841) StdoutLine: {'line': b'running build\n'}
+[19.027908] (assign2_650610841) StdoutLine: {'line': b'running build_py\n'}
+[19.029891] (-) TimerEvent: {}
+[19.089192] (assign2_650610841) StdoutLine: {'line': b'copying assign2_650610841/master_650610841.py -> /home/robot_ws/build/assign2_650610841/build/lib/assign2_650610841\n'}
+[19.130102] (-) TimerEvent: {}
+[19.148471] (assign2_650610841) StdoutLine: {'line': b'running install\n'}
+[19.150604] (assign2_650610841) StdoutLine: {'line': b'running install_lib\n'}
+[19.230280] (-) TimerEvent: {}
+[19.249787] (assign2_650610841) StdoutLine: {'line': b'copying /home/robot_ws/build/assign2_650610841/build/lib/assign2_650610841/master_650610841.py -> /home/robot_ws/install/assign2_650610841/lib/python3.10/site-packages/assign2_650610841\n'}
+[19.330427] (-) TimerEvent: {}
+[19.361033] (assign2_650610841) StdoutLine: {'line': b'byte-compiling /home/robot_ws/install/assign2_650610841/lib/python3.10/site-packages/assign2_650610841/master_650610841.py to master_650610841.cpython-310.pyc\n'}
+[19.430585] (-) TimerEvent: {}
+[19.442098] (assign2_650610841) StdoutLine: {'line': b'running install_data\n'}
+[19.468680] (assign2_650610841) StdoutLine: {'line': b'running install_egg_info\n'}
+[19.485384] (assign2_650610841) StdoutLine: {'line': b"removing '/home/robot_ws/install/assign2_650610841/lib/python3.10/site-packages/assign2_650610841-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[19.530888] (-) TimerEvent: {}
+[19.571102] (assign2_650610841) StdoutLine: {'line': b'Copying ../../build/assign2_650610841/assign2_650610841.egg-info to /home/robot_ws/install/assign2_650610841/lib/python3.10/site-packages/assign2_650610841-0.0.0-py3.10.egg-info\n'}
+[19.631008] (-) TimerEvent: {}
+[19.732147] (-) TimerEvent: {}
+[19.833213] (-) TimerEvent: {}
+[19.924801] (assign2_650610841) StdoutLine: {'line': b'running install_scripts\n'}
+[19.933306] (-) TimerEvent: {}
+[20.034187] (-) TimerEvent: {}
+[20.061403] (assign2_650610841) StdoutLine: {'line': b'Installing client script to /home/robot_ws/install/assign2_650610841/lib/assign2_650610841\n'}
+[20.070859] (assign2_650610841) StdoutLine: {'line': b'Installing server script to /home/robot_ws/install/assign2_650610841/lib/assign2_650610841\n'}
+[20.084846] (assign2_650610841) StdoutLine: {'line': b'Installing subscriber script to /home/robot_ws/install/assign2_650610841/lib/assign2_650610841\n'}
+[20.100827] (assign2_650610841) StdoutLine: {'line': b"writing list of installed files to '/home/robot_ws/build/assign2_650610841/install.log'\n"}
+[20.124109] (assign2_650610841) CommandEnded: {'returncode': 0}
+[20.134390] (-) TimerEvent: {}
+[20.235309] (-) TimerEvent: {}
+[20.336212] (-) TimerEvent: {}
+[20.436796] (-) TimerEvent: {}
+[20.437944] (assign2_650610841) JobEnded: {'identifier': 'assign2_650610841', 'rc': 0}
+[20.450004] (-) EventReactorShutdown: {}

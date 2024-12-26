@@ -1,0 +1,5 @@
+  File "/home/robot_ws/install/assign2_650610841/lib/python3.10/site-packages/assign2_650610841/master_650610841.py", line 37
+    (int(sys.argv[1]), int(sys.argv[2]), int(sys.argv[3]), int(sys.argv[4]) response.sum))
+                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+

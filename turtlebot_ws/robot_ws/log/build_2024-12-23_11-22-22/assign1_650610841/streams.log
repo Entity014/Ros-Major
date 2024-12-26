@@ -1,0 +1,24 @@
+[4.979s] Invoking command in '/home/robot_ws/src/assign1_650610841': PYTHONPATH=/home/robot_ws/build/assign1_650610841/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot_ws/install/assign1_650610841/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/assign1_650610841 build --build-base /home/robot_ws/build/assign1_650610841/build install --record /home/robot_ws/build/assign1_650610841/install.log --single-version-externally-managed install_data
+[5.723s] running egg_info
+[5.728s] writing ../../build/assign1_650610841/assign1_650610841.egg-info/PKG-INFO
+[5.735s] writing dependency_links to ../../build/assign1_650610841/assign1_650610841.egg-info/dependency_links.txt
+[5.741s] writing entry points to ../../build/assign1_650610841/assign1_650610841.egg-info/entry_points.txt
+[5.747s] writing requirements to ../../build/assign1_650610841/assign1_650610841.egg-info/requires.txt
+[5.751s] writing top-level names to ../../build/assign1_650610841/assign1_650610841.egg-info/top_level.txt
+[5.787s] reading manifest file '../../build/assign1_650610841/assign1_650610841.egg-info/SOURCES.txt'
+[5.851s] adding license file 'LICENSE'
+[5.874s] writing manifest file '../../build/assign1_650610841/assign1_650610841.egg-info/SOURCES.txt'
+[5.878s] running build
+[5.879s] running build_py
+[5.937s] running install
+[5.938s] running install_lib
+[6.094s] running install_data
+[6.121s] running install_egg_info
+[6.135s] removing '/home/robot_ws/install/assign1_650610841/lib/python3.10/site-packages/assign1_650610841-0.0.0-py3.10.egg-info' (and everything under it)
+[6.211s] Copying ../../build/assign1_650610841/assign1_650610841.egg-info to /home/robot_ws/install/assign1_650610841/lib/python3.10/site-packages/assign1_650610841-0.0.0-py3.10.egg-info
+[6.459s] running install_scripts
+[6.535s] Installing hearer1 script to /home/robot_ws/install/assign1_650610841/lib/assign1_650610841
+[6.554s] Installing hearer2 script to /home/robot_ws/install/assign1_650610841/lib/assign1_650610841
+[6.581s] Installing whisper script to /home/robot_ws/install/assign1_650610841/lib/assign1_650610841
+[6.605s] writing list of installed files to '/home/robot_ws/build/assign1_650610841/install.log'
+[6.635s] Invoked command in '/home/robot_ws/src/assign1_650610841' returned '0': PYTHONPATH=/home/robot_ws/build/assign1_650610841/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot_ws/install/assign1_650610841/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/assign1_650610841 build --build-base /home/robot_ws/build/assign1_650610841/build install --record /home/robot_ws/build/assign1_650610841/install.log --single-version-externally-managed install_data

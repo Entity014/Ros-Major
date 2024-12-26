@@ -1,0 +1,27 @@
+[4.933s] Invoking command in '/home/robot_ws/src/assign2_650610841': AMENT_PREFIX_PATH=/home/robot_ws/install/myword_650610841:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robot_ws/install/myword_650610841 LD_LIBRARY_PATH=/home/robot_ws/install/myword_650610841/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robot_ws/build/assign2_650610841/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot_ws/install/assign2_650610841/lib/python3.10/site-packages:/home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/assign2_650610841 build --build-base /home/robot_ws/build/assign2_650610841/build install --record /home/robot_ws/build/assign2_650610841/install.log --single-version-externally-managed install_data
+[7.068s] running egg_info
+[7.074s] writing ../../build/assign2_650610841/assign2_650610841.egg-info/PKG-INFO
+[7.085s] writing dependency_links to ../../build/assign2_650610841/assign2_650610841.egg-info/dependency_links.txt
+[7.096s] writing entry points to ../../build/assign2_650610841/assign2_650610841.egg-info/entry_points.txt
+[7.104s] writing requirements to ../../build/assign2_650610841/assign2_650610841.egg-info/requires.txt
+[7.113s] writing top-level names to ../../build/assign2_650610841/assign2_650610841.egg-info/top_level.txt
+[7.163s] reading manifest file '../../build/assign2_650610841/assign2_650610841.egg-info/SOURCES.txt'
+[7.228s] adding license file 'LICENSE'
+[7.261s] writing manifest file '../../build/assign2_650610841/assign2_650610841.egg-info/SOURCES.txt'
+[7.264s] running build
+[7.266s] running build_py
+[7.316s] copying assign2_650610841/master_650610841.py -> /home/robot_ws/build/assign2_650610841/build/lib/assign2_650610841
+[7.387s] running install
+[7.389s] running install_lib
+[7.491s] copying /home/robot_ws/build/assign2_650610841/build/lib/assign2_650610841/master_650610841.py -> /home/robot_ws/install/assign2_650610841/lib/python3.10/site-packages/assign2_650610841
+[7.601s] byte-compiling /home/robot_ws/install/assign2_650610841/lib/python3.10/site-packages/assign2_650610841/master_650610841.py to master_650610841.cpython-310.pyc
+[7.669s] running install_data
+[7.702s] running install_egg_info
+[7.729s] removing '/home/robot_ws/install/assign2_650610841/lib/python3.10/site-packages/assign2_650610841-0.0.0-py3.10.egg-info' (and everything under it)
+[7.826s] Copying ../../build/assign2_650610841/assign2_650610841.egg-info to /home/robot_ws/install/assign2_650610841/lib/python3.10/site-packages/assign2_650610841-0.0.0-py3.10.egg-info
+[8.160s] running install_scripts
+[8.360s] Installing client script to /home/robot_ws/install/assign2_650610841/lib/assign2_650610841
+[8.377s] Installing server script to /home/robot_ws/install/assign2_650610841/lib/assign2_650610841
+[8.393s] Installing subscriber script to /home/robot_ws/install/assign2_650610841/lib/assign2_650610841
+[8.416s] writing list of installed files to '/home/robot_ws/build/assign2_650610841/install.log'
+[8.440s] Invoked command in '/home/robot_ws/src/assign2_650610841' returned '0': AMENT_PREFIX_PATH=/home/robot_ws/install/myword_650610841:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robot_ws/install/myword_650610841 LD_LIBRARY_PATH=/home/robot_ws/install/myword_650610841/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robot_ws/build/assign2_650610841/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot_ws/install/assign2_650610841/lib/python3.10/site-packages:/home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/assign2_650610841 build --build-base /home/robot_ws/build/assign2_650610841/build install --record /home/robot_ws/build/assign2_650610841/install.log --single-version-externally-managed install_data

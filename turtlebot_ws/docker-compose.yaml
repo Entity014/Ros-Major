@@ -1,0 +1,25 @@
+services:
+  turtlebot_compose:
+    image: turtlebot
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      args:
+        ROS_DISTRO: humble
+    stdin_open: true
+    tty: true
+    network_mode: host
+    ipc: host
+    privileged: true
+    stop_grace_period: 1s
+    environment:
+      - ROS_DOMAIN_ID=10
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+      - NVIDIA_DRIVER_CAPABILITIES=all
+    volumes:
+      # mount X11 socket
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      # - ${XAUTHORITY:-$HOME/.Xauthority}:/root/.Xauthority:rw
+      # mount workspace
+      - ./robot_ws:/home/robot_ws:rw

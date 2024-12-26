@@ -1,0 +1,5 @@
+[console_scripts]
+hearer1 = assign1_650610841.hearer1_650610841:main
+hearer2 = assign1_650610841.hearer2_650610841:main
+whisper = assign1_650610841.whisper_650610841:main
+

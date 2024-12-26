@@ -1,0 +1,7 @@
+{
+  "package_name": "myword_650610841",
+  "non_idl_tuples": [
+    "/home/robot_ws/src/myword_650610841:msg/Num.msg",
+    "/home/robot_ws/src/myword_650610841:srv/SumFourInt.srv"
+  ]
+}

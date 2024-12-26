@@ -1,0 +1,46 @@
+[5.471s] Invoking command in '/home/robot_ws/src/assign1_650610841': PYTHONPATH=/home/robot_ws/build/assign1_650610841/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot_ws/install/assign1_650610841/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/assign1_650610841 build --build-base /home/robot_ws/build/assign1_650610841/build install --record /home/robot_ws/build/assign1_650610841/install.log --single-version-externally-managed install_data
+[7.254s] running egg_info
+[7.258s] creating ../../build/assign1_650610841/assign1_650610841.egg-info
+[7.261s] writing ../../build/assign1_650610841/assign1_650610841.egg-info/PKG-INFO
+[7.297s] writing dependency_links to ../../build/assign1_650610841/assign1_650610841.egg-info/dependency_links.txt
+[7.320s] writing entry points to ../../build/assign1_650610841/assign1_650610841.egg-info/entry_points.txt
+[7.334s] writing requirements to ../../build/assign1_650610841/assign1_650610841.egg-info/requires.txt
+[7.344s] writing top-level names to ../../build/assign1_650610841/assign1_650610841.egg-info/top_level.txt
+[7.358s] writing manifest file '../../build/assign1_650610841/assign1_650610841.egg-info/SOURCES.txt'
+[7.469s] reading manifest file '../../build/assign1_650610841/assign1_650610841.egg-info/SOURCES.txt'
+[7.575s] adding license file 'LICENSE'
+[7.598s] writing manifest file '../../build/assign1_650610841/assign1_650610841.egg-info/SOURCES.txt'
+[7.603s] running build
+[7.604s] running build_py
+[7.608s] creating /home/robot_ws/build/assign1_650610841/build
+[7.609s] creating /home/robot_ws/build/assign1_650610841/build/lib
+[7.612s] creating /home/robot_ws/build/assign1_650610841/build/lib/assign1_650610841
+[7.622s] copying assign1_650610841/hearer1_650610841.py -> /home/robot_ws/build/assign1_650610841/build/lib/assign1_650610841
+[7.660s] copying assign1_650610841/hearer2_650610841.py -> /home/robot_ws/build/assign1_650610841/build/lib/assign1_650610841
+[7.688s] copying assign1_650610841/whisper_650610841.py -> /home/robot_ws/build/assign1_650610841/build/lib/assign1_650610841
+[7.716s] copying assign1_650610841/__init__.py -> /home/robot_ws/build/assign1_650610841/build/lib/assign1_650610841
+[7.733s] running install
+[7.734s] running install_lib
+[7.759s] creating /home/robot_ws/install/assign1_650610841/lib/python3.10/site-packages/assign1_650610841
+[7.777s] copying /home/robot_ws/build/assign1_650610841/build/lib/assign1_650610841/hearer1_650610841.py -> /home/robot_ws/install/assign1_650610841/lib/python3.10/site-packages/assign1_650610841
+[7.810s] copying /home/robot_ws/build/assign1_650610841/build/lib/assign1_650610841/hearer2_650610841.py -> /home/robot_ws/install/assign1_650610841/lib/python3.10/site-packages/assign1_650610841
+[7.836s] copying /home/robot_ws/build/assign1_650610841/build/lib/assign1_650610841/whisper_650610841.py -> /home/robot_ws/install/assign1_650610841/lib/python3.10/site-packages/assign1_650610841
+[7.860s] copying /home/robot_ws/build/assign1_650610841/build/lib/assign1_650610841/__init__.py -> /home/robot_ws/install/assign1_650610841/lib/python3.10/site-packages/assign1_650610841
+[7.883s] byte-compiling /home/robot_ws/install/assign1_650610841/lib/python3.10/site-packages/assign1_650610841/hearer1_650610841.py to hearer1_650610841.cpython-310.pyc
+[7.914s] byte-compiling /home/robot_ws/install/assign1_650610841/lib/python3.10/site-packages/assign1_650610841/hearer2_650610841.py to hearer2_650610841.cpython-310.pyc
+[8.015s] byte-compiling /home/robot_ws/install/assign1_650610841/lib/python3.10/site-packages/assign1_650610841/whisper_650610841.py to whisper_650610841.cpython-310.pyc
+[8.073s] byte-compiling /home/robot_ws/install/assign1_650610841/lib/python3.10/site-packages/assign1_650610841/__init__.py to __init__.cpython-310.pyc
+[8.112s] running install_data
+[8.118s] creating /home/robot_ws/install/assign1_650610841/share/ament_index
+[8.120s] creating /home/robot_ws/install/assign1_650610841/share/ament_index/resource_index
+[8.123s] creating /home/robot_ws/install/assign1_650610841/share/ament_index/resource_index/packages
+[8.133s] copying resource/assign1_650610841 -> /home/robot_ws/install/assign1_650610841/share/ament_index/resource_index/packages
+[8.158s] copying package.xml -> /home/robot_ws/install/assign1_650610841/share/assign1_650610841
+[8.172s] running install_egg_info
+[8.184s] Copying ../../build/assign1_650610841/assign1_650610841.egg-info to /home/robot_ws/install/assign1_650610841/lib/python3.10/site-packages/assign1_650610841-0.0.0-py3.10.egg-info
+[8.364s] running install_scripts
+[8.457s] Installing hearer1 script to /home/robot_ws/install/assign1_650610841/lib/assign1_650610841
+[8.493s] Installing hearer2 script to /home/robot_ws/install/assign1_650610841/lib/assign1_650610841
+[8.521s] Installing whisper script to /home/robot_ws/install/assign1_650610841/lib/assign1_650610841
+[8.556s] writing list of installed files to '/home/robot_ws/build/assign1_650610841/install.log'
+[8.592s] Invoked command in '/home/robot_ws/src/assign1_650610841' returned '0': PYTHONPATH=/home/robot_ws/build/assign1_650610841/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot_ws/install/assign1_650610841/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/assign1_650610841 build --build-base /home/robot_ws/build/assign1_650610841/build install --record /home/robot_ws/build/assign1_650610841/install.log --single-version-externally-managed install_data

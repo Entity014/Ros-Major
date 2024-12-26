@@ -1,0 +1,24 @@
+[6.270s] Invoking command in '/home/robot_ws/src/assign1_650610832': PYTHONPATH=/home/robot_ws/build/assign1_650610832/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot_ws/install/assign1_650610832/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/assign1_650610832 build --build-base /home/robot_ws/build/assign1_650610832/build install --record /home/robot_ws/build/assign1_650610832/install.log --single-version-externally-managed install_data
+[8.054s] running egg_info
+[8.061s] writing ../../build/assign1_650610832/assign1_650610832.egg-info/PKG-INFO
+[8.073s] writing dependency_links to ../../build/assign1_650610832/assign1_650610832.egg-info/dependency_links.txt
+[8.084s] writing entry points to ../../build/assign1_650610832/assign1_650610832.egg-info/entry_points.txt
+[8.092s] writing requirements to ../../build/assign1_650610832/assign1_650610832.egg-info/requires.txt
+[8.098s] writing top-level names to ../../build/assign1_650610832/assign1_650610832.egg-info/top_level.txt
+[8.162s] reading manifest file '../../build/assign1_650610832/assign1_650610832.egg-info/SOURCES.txt'
+[8.235s] adding license file 'LICENSE'
+[8.275s] writing manifest file '../../build/assign1_650610832/assign1_650610832.egg-info/SOURCES.txt'
+[8.281s] running build
+[8.282s] running build_py
+[8.379s] running install
+[8.380s] running install_lib
+[8.623s] running install_data
+[8.664s] running install_egg_info
+[8.683s] removing '/home/robot_ws/install/assign1_650610832/lib/python3.10/site-packages/assign1_650610832-0.0.0-py3.10.egg-info' (and everything under it)
+[8.768s] Copying ../../build/assign1_650610832/assign1_650610832.egg-info to /home/robot_ws/install/assign1_650610832/lib/python3.10/site-packages/assign1_650610832-0.0.0-py3.10.egg-info
+[9.110s] running install_scripts
+[9.243s] Installing Pnode script to /home/robot_ws/install/assign1_650610832/lib/assign1_650610832
+[9.256s] Installing S1node script to /home/robot_ws/install/assign1_650610832/lib/assign1_650610832
+[9.275s] Installing S2node script to /home/robot_ws/install/assign1_650610832/lib/assign1_650610832
+[9.297s] writing list of installed files to '/home/robot_ws/build/assign1_650610832/install.log'
+[9.322s] Invoked command in '/home/robot_ws/src/assign1_650610832' returned '0': PYTHONPATH=/home/robot_ws/build/assign1_650610832/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot_ws/install/assign1_650610832/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/assign1_650610832 build --build-base /home/robot_ws/build/assign1_650610832/build install --record /home/robot_ws/build/assign1_650610832/install.log --single-version-externally-managed install_data

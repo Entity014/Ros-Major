@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from myword_650610841/srv/SumThreeInt.srv
+// generated code does not contain a copyright notice
+
+
+module myword_650610841 {
+  module srv {
+    struct SumThreeInt_Request {
+      int64 a;
+
+      int64 b;
+
+      int64 c;
+
+      int64 d;
+    };
+    struct SumThreeInt_Response {
+      int64 i;
+    };
+  };
+};

@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.000808] (-) JobUnselected: {'identifier': 'assign1_650610832'}
+[0.001427] (-) JobUnselected: {'identifier': 'assign1_650610841'}
+[0.002124] (-) JobUnselected: {'identifier': 'myword_650610841'}
+[0.002439] (assign2_650610841) JobQueued: {'identifier': 'assign2_650610841', 'dependencies': OrderedDict([('myword_650610841', '/home/robot_ws/install/myword_650610841')])}
+[0.002866] (assign2_650610841) JobStarted: {'identifier': 'assign2_650610841'}
+[0.097440] (-) TimerEvent: {}
+[0.198246] (-) TimerEvent: {}
+[0.299359] (-) TimerEvent: {}
+[0.400265] (-) TimerEvent: {}
+[0.500936] (-) TimerEvent: {}
+[0.601980] (-) TimerEvent: {}
+[0.702789] (-) TimerEvent: {}
+[0.803494] (-) TimerEvent: {}
+[0.904666] (-) TimerEvent: {}
+[1.005358] (-) TimerEvent: {}
+[1.106004] (-) TimerEvent: {}
+[1.206846] (-) TimerEvent: {}
+[1.307819] (-) TimerEvent: {}
+[1.408688] (-) TimerEvent: {}
+[1.509572] (-) TimerEvent: {}
+[1.610325] (-) TimerEvent: {}
+[1.711261] (-) TimerEvent: {}
+[1.811915] (-) TimerEvent: {}
+[1.912804] (-) TimerEvent: {}
+[2.013386] (-) TimerEvent: {}
+[2.114081] (-) TimerEvent: {}
+[2.214766] (-) TimerEvent: {}
+[2.315981] (-) TimerEvent: {}
+[2.416766] (-) TimerEvent: {}
+[2.517521] (-) TimerEvent: {}
+[2.618140] (-) TimerEvent: {}
+[2.718801] (-) TimerEvent: {}
+[2.819585] (-) TimerEvent: {}
+[2.920387] (-) TimerEvent: {}
+[3.021141] (-) TimerEvent: {}
+[3.122007] (-) TimerEvent: {}
+[3.222737] (-) TimerEvent: {}
+[3.323554] (-) TimerEvent: {}
+[3.424298] (-) TimerEvent: {}
+[3.525054] (-) TimerEvent: {}
+[3.626198] (-) TimerEvent: {}
+[3.726999] (-) TimerEvent: {}
+[3.827687] (-) TimerEvent: {}
+[3.928411] (-) TimerEvent: {}
+[4.029136] (-) TimerEvent: {}
+[4.129844] (-) TimerEvent: {}
+[4.230506] (-) TimerEvent: {}
+[4.331202] (-) TimerEvent: {}
+[4.431875] (-) TimerEvent: {}
+[4.532648] (-) TimerEvent: {}
+[4.633493] (-) TimerEvent: {}
+[4.734343] (-) TimerEvent: {}
+[4.834940] (-) TimerEvent: {}
+[4.920672] (assign2_650610841) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/assign2_650610841', 'build', '--build-base', '/home/robot_ws/build/assign2_650610841/build', 'install', '--record', '/home/robot_ws/build/assign2_650610841/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/robot_ws/src/assign2_650610841', 'env': {'HOSTNAME': 'docker-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robot_ws/install/myword_650610841/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home', 'OLDPWD': '/home/robot_ws/src', 'ROS_PYTHON_VERSION': '3', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/robot_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'DISPLAY': 'host.docker.internal:0.0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/robot_ws/install/myword_650610841:/home/robot_ws/install/assign1_650610841:/home/robot_ws/install/assign1_650610832:/opt/ros/humble', 'NO_AT_BRIDGE': '1', 'PWD': '/home/robot_ws/build/assign2_650610841', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/robot_ws/build/assign2_650610841/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot_ws/install/assign2_650610841/lib/python3.10/site-packages:/home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages:/home/robot_ws/install/assign1_650610841/lib/python3.10/site-packages:/home/robot_ws/install/assign1_650610832/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robot_ws/install/myword_650610841'}, 'shell': False}
+[4.937360] (-) TimerEvent: {}
+[5.038013] (-) TimerEvent: {}
+[5.138825] (-) TimerEvent: {}
+[5.239462] (-) TimerEvent: {}
+[5.340511] (-) TimerEvent: {}
+[5.441239] (-) TimerEvent: {}
+[5.541867] (-) TimerEvent: {}
+[5.642442] (-) TimerEvent: {}
+[5.743194] (-) TimerEvent: {}
+[5.843897] (-) TimerEvent: {}
+[5.944603] (-) TimerEvent: {}
+[6.045410] (-) TimerEvent: {}
+[6.146102] (-) TimerEvent: {}
+[6.246800] (-) TimerEvent: {}
+[6.347768] (-) TimerEvent: {}
+[6.448524] (-) TimerEvent: {}
+[6.549295] (-) TimerEvent: {}
+[6.650172] (-) TimerEvent: {}
+[6.750978] (-) TimerEvent: {}
+[6.851734] (-) TimerEvent: {}
+[6.952484] (-) TimerEvent: {}
+[7.053313] (-) TimerEvent: {}
+[7.069946] (assign2_650610841) StdoutLine: {'line': b'running egg_info\n'}
+[7.076774] (assign2_650610841) StdoutLine: {'line': b'writing ../../build/assign2_650610841/assign2_650610841.egg-info/PKG-INFO\n'}
+[7.086365] (assign2_650610841) StdoutLine: {'line': b'writing dependency_links to ../../build/assign2_650610841/assign2_650610841.egg-info/dependency_links.txt\n'}
+[7.097433] (assign2_650610841) StdoutLine: {'line': b'writing entry points to ../../build/assign2_650610841/assign2_650610841.egg-info/entry_points.txt\n'}
+[7.105909] (assign2_650610841) StdoutLine: {'line': b'writing requirements to ../../build/assign2_650610841/assign2_650610841.egg-info/requires.txt\n'}
+[7.112968] (assign2_650610841) StdoutLine: {'line': b'writing top-level names to ../../build/assign2_650610841/assign2_650610841.egg-info/top_level.txt\n'}
+[7.153432] (-) TimerEvent: {}
+[7.164698] (assign2_650610841) StdoutLine: {'line': b"reading manifest file '../../build/assign2_650610841/assign2_650610841.egg-info/SOURCES.txt'\n"}
+[7.227625] (assign2_650610841) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[7.253567] (-) TimerEvent: {}
+[7.262921] (assign2_650610841) StdoutLine: {'line': b"writing manifest file '../../build/assign2_650610841/assign2_650610841.egg-info/SOURCES.txt'\n"}
+[7.266921] (assign2_650610841) StdoutLine: {'line': b'running build\n'}
+[7.267945] (assign2_650610841) StdoutLine: {'line': b'running build_py\n'}
+[7.317437] (assign2_650610841) StdoutLine: {'line': b'copying assign2_650610841/master_650610841.py -> /home/robot_ws/build/assign2_650610841/build/lib/assign2_650610841\n'}
+[7.353869] (-) TimerEvent: {}
+[7.389516] (assign2_650610841) StdoutLine: {'line': b'running install\n'}
+[7.390931] (assign2_650610841) StdoutLine: {'line': b'running install_lib\n'}
+[7.453990] (-) TimerEvent: {}
+[7.492145] (assign2_650610841) StdoutLine: {'line': b'copying /home/robot_ws/build/assign2_650610841/build/lib/assign2_650610841/master_650610841.py -> /home/robot_ws/install/assign2_650610841/lib/python3.10/site-packages/assign2_650610841\n'}
+[7.554106] (-) TimerEvent: {}
+[7.602853] (assign2_650610841) StdoutLine: {'line': b'byte-compiling /home/robot_ws/install/assign2_650610841/lib/python3.10/site-packages/assign2_650610841/master_650610841.py to master_650610841.cpython-310.pyc\n'}
+[7.654247] (-) TimerEvent: {}
+[7.671092] (assign2_650610841) StdoutLine: {'line': b'running install_data\n'}
+[7.703548] (assign2_650610841) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.730555] (assign2_650610841) StdoutLine: {'line': b"removing '/home/robot_ws/install/assign2_650610841/lib/python3.10/site-packages/assign2_650610841-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.754358] (-) TimerEvent: {}
+[7.828256] (assign2_650610841) StdoutLine: {'line': b'Copying ../../build/assign2_650610841/assign2_650610841.egg-info to /home/robot_ws/install/assign2_650610841/lib/python3.10/site-packages/assign2_650610841-0.0.0-py3.10.egg-info\n'}
+[7.854497] (-) TimerEvent: {}
+[7.955168] (-) TimerEvent: {}
+[8.056072] (-) TimerEvent: {}
+[8.156927] (-) TimerEvent: {}
+[8.161875] (assign2_650610841) StdoutLine: {'line': b'running install_scripts\n'}
+[8.257205] (-) TimerEvent: {}
+[8.358309] (-) TimerEvent: {}
+[8.361639] (assign2_650610841) StdoutLine: {'line': b'Installing client script to /home/robot_ws/install/assign2_650610841/lib/assign2_650610841\n'}
+[8.378449] (assign2_650610841) StdoutLine: {'line': b'Installing server script to /home/robot_ws/install/assign2_650610841/lib/assign2_650610841\n'}
+[8.394868] (assign2_650610841) StdoutLine: {'line': b'Installing subscriber script to /home/robot_ws/install/assign2_650610841/lib/assign2_650610841\n'}
+[8.418204] (assign2_650610841) StdoutLine: {'line': b"writing list of installed files to '/home/robot_ws/build/assign2_650610841/install.log'\n"}
+[8.441020] (assign2_650610841) CommandEnded: {'returncode': 0}
+[8.458438] (-) TimerEvent: {}
+[8.558972] (-) TimerEvent: {}
+[8.659737] (-) TimerEvent: {}
+[8.760541] (-) TimerEvent: {}
+[8.813567] (assign2_650610841) JobEnded: {'identifier': 'assign2_650610841', 'rc': 0}
+[8.828318] (-) EventReactorShutdown: {}
