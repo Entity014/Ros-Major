@@ -36,7 +36,8 @@ RUN touch /home/.bashrc
 RUN echo 'source /opt/ros/$ROS_DISTRO/setup.bash' >> /home/.bashrc \
     && echo 'source /home/robot_ws/install/setup.bash' >> /home/.bashrc \
     && echo "source /usr/share/colcon_cd/function/colcon_cd.sh" >> /home/.bashrc \
-    && echo "export _colcon_cd_root=/opt/ros/humble/" >> /home/.bashrc
+    && echo "export _colcon_cd_root=/opt/ros/humble/" >> /home/.bashrc \
+    && echo 'source /usr/share/gazebo/setup.sh' >> ~/.bashrc
 
 RUN apt-get update --fix-missing
 RUN apt-get install -y ros-${ROS_DISTRO}-xacro ros-${ROS_DISTRO}-controller-manager ros-${ROS_DISTRO}-ros2-control \ 

@@ -13,10 +13,11 @@ services:
     privileged: true
     stop_grace_period: 1s
     environment:
-      - ROS_DOMAIN_ID=10
+      - ROS_DOMAIN_ID=15
       - DISPLAY=${DISPLAY}
       - QT_X11_NO_MITSHM=1
       - NVIDIA_DRIVER_CAPABILITIES=all
+      - RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
     volumes:
       # mount X11 socket
       - /tmp/.X11-unix:/tmp/.X11-unix:rw
