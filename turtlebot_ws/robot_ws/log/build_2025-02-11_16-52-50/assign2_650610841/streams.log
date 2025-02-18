@@ -1,0 +1,24 @@
+[0.665s] Invoking command in '/home/robot_ws/src/assign2_650610841': CMAKE_PREFIX_PATH=/home/robot_ws/install/myword_650610841:/home/robot_ws/install/sllidar_ros2 LD_LIBRARY_PATH=/home/robot_ws/install/myword_650610841/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/robot_ws/build/assign2_650610841/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot_ws/install/assign2_650610841/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/assign2_650610841 build --build-base /home/robot_ws/build/assign2_650610841/build install --record /home/robot_ws/build/assign2_650610841/install.log --single-version-externally-managed install_data
+[0.864s] running egg_info
+[0.865s] writing ../../build/assign2_650610841/assign2_650610841.egg-info/PKG-INFO
+[0.865s] writing dependency_links to ../../build/assign2_650610841/assign2_650610841.egg-info/dependency_links.txt
+[0.865s] writing entry points to ../../build/assign2_650610841/assign2_650610841.egg-info/entry_points.txt
+[0.865s] writing requirements to ../../build/assign2_650610841/assign2_650610841.egg-info/requires.txt
+[0.865s] writing top-level names to ../../build/assign2_650610841/assign2_650610841.egg-info/top_level.txt
+[0.867s] reading manifest file '../../build/assign2_650610841/assign2_650610841.egg-info/SOURCES.txt'
+[0.867s] adding license file 'LICENSE'
+[0.868s] writing manifest file '../../build/assign2_650610841/assign2_650610841.egg-info/SOURCES.txt'
+[0.868s] running build
+[0.868s] running build_py
+[0.868s] running install
+[0.868s] running install_lib
+[0.869s] running install_data
+[0.869s] running install_egg_info
+[0.871s] removing '/home/robot_ws/install/assign2_650610841/lib/python3.10/site-packages/assign2_650610841-0.0.0-py3.10.egg-info' (and everything under it)
+[0.871s] Copying ../../build/assign2_650610841/assign2_650610841.egg-info to /home/robot_ws/install/assign2_650610841/lib/python3.10/site-packages/assign2_650610841-0.0.0-py3.10.egg-info
+[0.872s] running install_scripts
+[0.890s] Installing client script to /home/robot_ws/install/assign2_650610841/lib/assign2_650610841
+[0.890s] Installing server script to /home/robot_ws/install/assign2_650610841/lib/assign2_650610841
+[0.890s] Installing subscriber script to /home/robot_ws/install/assign2_650610841/lib/assign2_650610841
+[0.891s] writing list of installed files to '/home/robot_ws/build/assign2_650610841/install.log'
+[0.910s] Invoked command in '/home/robot_ws/src/assign2_650610841' returned '0': CMAKE_PREFIX_PATH=/home/robot_ws/install/myword_650610841:/home/robot_ws/install/sllidar_ros2 LD_LIBRARY_PATH=/home/robot_ws/install/myword_650610841/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/robot_ws/build/assign2_650610841/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot_ws/install/assign2_650610841/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/assign2_650610841 build --build-base /home/robot_ws/build/assign2_650610841/build install --record /home/robot_ws/build/assign2_650610841/install.log --single-version-externally-managed install_data

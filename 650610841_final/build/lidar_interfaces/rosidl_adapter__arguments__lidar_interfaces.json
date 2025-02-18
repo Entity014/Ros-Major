@@ -1,0 +1,7 @@
+{
+  "package_name": "lidar_interfaces",
+  "non_idl_tuples": [
+    "/home/entity014/Ros-Major/650610841_final/src/lidar_interfaces:msg/Scan.msg",
+    "/home/entity014/Ros-Major/650610841_final/src/lidar_interfaces:srv/Break.srv"
+  ]
+}

@@ -1,0 +1,25 @@
+[2.423s] Invoking command in '/home/robot_ws/src/650610841_final': PYTHONPATH=/home/robot_ws/build/650610841_final/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot_ws/install/650610841_final/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/650610841_final build --build-base /home/robot_ws/build/650610841_final/build install --record /home/robot_ws/build/650610841_final/install.log --single-version-externally-managed install_data
+[2.902s] running egg_info
+[2.904s] writing ../../build/650610841_final/650610841_final.egg-info/PKG-INFO
+[2.905s] writing dependency_links to ../../build/650610841_final/650610841_final.egg-info/dependency_links.txt
+[2.906s] writing entry points to ../../build/650610841_final/650610841_final.egg-info/entry_points.txt
+[2.907s] writing requirements to ../../build/650610841_final/650610841_final.egg-info/requires.txt
+[2.907s] writing top-level names to ../../build/650610841_final/650610841_final.egg-info/top_level.txt
+[2.916s] reading manifest file '../../build/650610841_final/650610841_final.egg-info/SOURCES.txt'
+[2.918s] adding license file 'LICENSE'
+[2.923s] writing manifest file '../../build/650610841_final/650610841_final.egg-info/SOURCES.txt'
+[2.926s] running build
+[2.928s] running build_py
+[2.929s] copying 650610841_final/lidar_controller.py -> /home/robot_ws/build/650610841_final/build/lib/650610841_final
+[2.930s] running install
+[2.931s] running install_lib
+[2.935s] copying /home/robot_ws/build/650610841_final/build/lib/650610841_final/lidar_controller.py -> /home/robot_ws/install/650610841_final/lib/python3.10/site-packages/650610841_final
+[2.940s] byte-compiling /home/robot_ws/install/650610841_final/lib/python3.10/site-packages/650610841_final/lidar_controller.py to lidar_controller.cpython-310.pyc
+[2.947s] running install_data
+[2.949s] running install_egg_info
+[2.960s] removing '/home/robot_ws/install/650610841_final/lib/python3.10/site-packages/650610841_final-0.0.0-py3.10.egg-info' (and everything under it)
+[2.963s] Copying ../../build/650610841_final/650610841_final.egg-info to /home/robot_ws/install/650610841_final/lib/python3.10/site-packages/650610841_final-0.0.0-py3.10.egg-info
+[2.973s] running install_scripts
+[3.039s] Installing lidar_controller script to /home/robot_ws/install/650610841_final/lib/650610841_final
+[3.039s] writing list of installed files to '/home/robot_ws/build/650610841_final/install.log'
+[3.079s] Invoked command in '/home/robot_ws/src/650610841_final' returned '0': PYTHONPATH=/home/robot_ws/build/650610841_final/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot_ws/install/650610841_final/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/650610841_final build --build-base /home/robot_ws/build/650610841_final/build install --record /home/robot_ws/build/650610841_final/install.log --single-version-externally-managed install_data

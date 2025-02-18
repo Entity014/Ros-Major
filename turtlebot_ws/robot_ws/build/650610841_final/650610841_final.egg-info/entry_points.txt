@@ -1,0 +1,4 @@
+[console_scripts]
+lidar_collision = 650610841_final.lidar_collision:main
+lidar_controller = 650610841_final.lidar_controller:main
+

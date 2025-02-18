@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing lidar_650610841.egg-info/PKG-INFO
+writing dependency_links to lidar_650610841.egg-info/dependency_links.txt
+writing entry points to lidar_650610841.egg-info/entry_points.txt
+writing requirements to lidar_650610841.egg-info/requires.txt
+writing top-level names to lidar_650610841.egg-info/top_level.txt
+reading manifest file 'lidar_650610841.egg-info/SOURCES.txt'
+writing manifest file 'lidar_650610841.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/entity014/Ros-Major/650610841_final/install/lidar_650610841/lib/python3.10/site-packages/lidar-650610841.egg-link (link to .)
+Installing lidar_collision script to /home/entity014/Ros-Major/650610841_final/install/lidar_650610841/lib/lidar_650610841
+Installing lidar_controller script to /home/entity014/Ros-Major/650610841_final/install/lidar_650610841/lib/lidar_650610841
+Installing lidar_convert script to /home/entity014/Ros-Major/650610841_final/install/lidar_650610841/lib/lidar_650610841
+Installing teleop_python script to /home/entity014/Ros-Major/650610841_final/install/lidar_650610841/lib/lidar_650610841
+
+Installed /home/entity014/Ros-Major/650610841_final/build/lidar_650610841
+running symlink_data

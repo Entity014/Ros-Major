@@ -1,0 +1,30 @@
+running egg_info
+writing ../../build/lidar_650610841/lidar_650610841.egg-info/PKG-INFO
+writing dependency_links to ../../build/lidar_650610841/lidar_650610841.egg-info/dependency_links.txt
+writing entry points to ../../build/lidar_650610841/lidar_650610841.egg-info/entry_points.txt
+writing requirements to ../../build/lidar_650610841/lidar_650610841.egg-info/requires.txt
+writing top-level names to ../../build/lidar_650610841/lidar_650610841.egg-info/top_level.txt
+reading manifest file '../../build/lidar_650610841/lidar_650610841.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/lidar_650610841/lidar_650610841.egg-info/SOURCES.txt'
+running build
+running build_py
+copying lidar_650610841/lidar_collision.py -> /home/entity014/Ros-Major/650610841_final/build/lidar_650610841/build/lib/lidar_650610841
+copying lidar_650610841/lidar_controller.py -> /home/entity014/Ros-Major/650610841_final/build/lidar_650610841/build/lib/lidar_650610841
+running install
+running install_lib
+copying /home/entity014/Ros-Major/650610841_final/build/lidar_650610841/build/lib/lidar_650610841/lidar_collision.py -> /home/entity014/Ros-Major/650610841_final/install/lidar_650610841/lib/python3.10/site-packages/lidar_650610841
+copying /home/entity014/Ros-Major/650610841_final/build/lidar_650610841/build/lib/lidar_650610841/lidar_controller.py -> /home/entity014/Ros-Major/650610841_final/install/lidar_650610841/lib/python3.10/site-packages/lidar_650610841
+byte-compiling /home/entity014/Ros-Major/650610841_final/install/lidar_650610841/lib/python3.10/site-packages/lidar_650610841/lidar_collision.py to lidar_collision.cpython-310.pyc
+byte-compiling /home/entity014/Ros-Major/650610841_final/install/lidar_650610841/lib/python3.10/site-packages/lidar_650610841/lidar_controller.py to lidar_controller.cpython-310.pyc
+running install_data
+copying launch/lidar.launch.py -> /home/entity014/Ros-Major/650610841_final/install/lidar_650610841/share/lidar_650610841/launch
+running install_egg_info
+removing '/home/entity014/Ros-Major/650610841_final/install/lidar_650610841/lib/python3.10/site-packages/lidar_650610841-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/lidar_650610841/lidar_650610841.egg-info to /home/entity014/Ros-Major/650610841_final/install/lidar_650610841/lib/python3.10/site-packages/lidar_650610841-0.0.0-py3.10.egg-info
+running install_scripts
+Installing lidar_collision script to /home/entity014/Ros-Major/650610841_final/install/lidar_650610841/lib/lidar_650610841
+Installing lidar_controller script to /home/entity014/Ros-Major/650610841_final/install/lidar_650610841/lib/lidar_650610841
+Installing lidar_convert script to /home/entity014/Ros-Major/650610841_final/install/lidar_650610841/lib/lidar_650610841
+Installing teleop_python script to /home/entity014/Ros-Major/650610841_final/install/lidar_650610841/lib/lidar_650610841
+writing list of installed files to '/home/entity014/Ros-Major/650610841_final/build/lidar_650610841/install.log'

@@ -1,0 +1,239 @@
+[0.029s] Invoking command in '/home/robot_ws/build/myword_650610841': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot_ws/build/myword_650610841 -- -j16 -l16
+[2.275s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.278s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.281s] [  5%] Built target ament_cmake_python_copy_myword_650610841
+[2.288s] running egg_info
+[2.290s] creating myword_650610841.egg-info
+[2.291s] writing myword_650610841.egg-info/PKG-INFO
+[2.292s] writing dependency_links to myword_650610841.egg-info/dependency_links.txt
+[2.295s] writing top-level names to myword_650610841.egg-info/top_level.txt
+[2.296s] writing manifest file 'myword_650610841.egg-info/SOURCES.txt'
+[2.297s] reading manifest file 'myword_650610841.egg-info/SOURCES.txt'
+[2.298s] writing manifest file 'myword_650610841.egg-info/SOURCES.txt'
+[2.299s] [  5%] Built target ament_cmake_python_build_myword_650610841_egg
+[2.299s] [  7%] [32mBuilding C object CMakeFiles/myword_650610841__rosidl_generator_c.dir/rosidl_generator_c/myword_650610841/msg/detail/num__functions.c.o[0m
+[2.301s] [ 10%] [32mBuilding C object CMakeFiles/myword_650610841__rosidl_generator_c.dir/rosidl_generator_c/myword_650610841/srv/detail/sum_four_int__functions.c.o[0m
+[2.303s] [ 10%] Built target myword_650610841__cpp
+[2.312s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.312s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.314s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.316s] [ 20%] [32m[1mLinking C shared library libmyword_650610841__rosidl_generator_c.so[0m
+[2.318s] [ 20%] Built target myword_650610841__rosidl_generator_c
+[2.322s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.325s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.327s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.348s] [ 30%] [32mBuilding CXX object CMakeFiles/myword_650610841__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/myword_650610841/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[2.350s] [ 33%] [32mBuilding CXX object CMakeFiles/myword_650610841__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/myword_650610841/srv/detail/dds_fastrtps/sum_four_int__type_support.cpp.o[0m
+[2.350s] [ 35%] [32mBuilding CXX object CMakeFiles/myword_650610841__rosidl_typesupport_c.dir/rosidl_typesupport_c/myword_650610841/msg/num__type_support.cpp.o[0m
+[2.352s] [ 38%] [32mBuilding CXX object CMakeFiles/myword_650610841__rosidl_typesupport_c.dir/rosidl_typesupport_c/myword_650610841/srv/sum_four_int__type_support.cpp.o[0m
+[2.353s] [ 41%] [32m[1mLinking CXX shared library libmyword_650610841__rosidl_typesupport_c.so[0m
+[2.355s] [ 43%] [32mBuilding CXX object CMakeFiles/myword_650610841__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/myword_650610841/srv/sum_four_int__type_support.cpp.o[0m
+[2.357s] [ 46%] [32mBuilding CXX object CMakeFiles/myword_650610841__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/myword_650610841/msg/num__type_support.cpp.o[0m
+[2.360s] [ 48%] [32mBuilding CXX object CMakeFiles/myword_650610841__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/myword_650610841/srv/detail/sum_four_int__type_support_c.cpp.o[0m
+[2.363s] [ 48%] Built target myword_650610841__rosidl_typesupport_c
+[2.364s] [ 51%] [32mBuilding CXX object CMakeFiles/myword_650610841__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/myword_650610841/msg/detail/num__type_support_c.cpp.o[0m
+[2.365s] [ 53%] [32mBuilding CXX object CMakeFiles/myword_650610841__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/myword_650610841/srv/detail/sum_four_int__type_support.cpp.o[0m
+[2.365s] [ 56%] [32mBuilding CXX object CMakeFiles/myword_650610841__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/myword_650610841/msg/detail/num__type_support.cpp.o[0m
+[2.376s] [ 58%] [32mBuilding C object CMakeFiles/myword_650610841__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/myword_650610841/msg/detail/num__type_support.c.o[0m
+[2.377s] [ 61%] [32mBuilding C object CMakeFiles/myword_650610841__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/myword_650610841/srv/detail/sum_four_int__type_support.c.o[0m
+[2.377s] [ 64%] [32m[1mLinking C shared library libmyword_650610841__rosidl_typesupport_introspection_c.so[0m
+[2.377s] [ 64%] Built target myword_650610841__rosidl_typesupport_introspection_c
+[3.080s] [ 66%] [32m[1mLinking CXX shared library libmyword_650610841__rosidl_typesupport_cpp.so[0m
+[3.218s] [ 66%] Built target myword_650610841__rosidl_typesupport_cpp
+[3.258s] [ 69%] [32m[1mLinking CXX shared library libmyword_650610841__rosidl_typesupport_introspection_cpp.so[0m
+[3.339s] [ 71%] [32m[1mLinking CXX shared library libmyword_650610841__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.374s] [ 74%] [32m[1mLinking CXX shared library libmyword_650610841__rosidl_typesupport_fastrtps_c.so[0m
+[3.397s] [ 74%] Built target myword_650610841__rosidl_typesupport_introspection_cpp
+[3.569s] [ 74%] Built target myword_650610841__rosidl_typesupport_fastrtps_c
+[3.651s] [ 74%] Built target myword_650610841__rosidl_typesupport_fastrtps_cpp
+[3.697s] [ 74%] Built target myword_650610841
+[3.761s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.383s] [ 76%] Built target myword_650610841__py
+[4.402s] [ 79%] [32mBuilding C object CMakeFiles/myword_650610841__rosidl_generator_py.dir/rosidl_generator_py/myword_650610841/msg/_num_s.c.o[0m
+[4.402s] [ 82%] [32mBuilding C object CMakeFiles/myword_650610841__rosidl_generator_py.dir/rosidl_generator_py/myword_650610841/srv/_sum_four_int_s.c.o[0m
+[4.491s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/myword_650610841/libmyword_650610841__rosidl_generator_py.so[0m
+[4.527s] [ 84%] Built target myword_650610841__rosidl_generator_py
+[4.542s] [ 87%] [32mBuilding C object CMakeFiles/myword_650610841__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/myword_650610841/_myword_650610841_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.545s] [ 89%] [32mBuilding C object CMakeFiles/myword_650610841__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/myword_650610841/_myword_650610841_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.547s] [ 92%] [32mBuilding C object CMakeFiles/myword_650610841__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/myword_650610841/_myword_650610841_s.ep.rosidl_typesupport_c.c.o[0m
+[4.613s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/myword_650610841/myword_650610841_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.614s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/myword_650610841/myword_650610841_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.640s] [ 97%] Built target myword_650610841__rosidl_typesupport_introspection_c__pyext
+[4.640s] [ 97%] Built target myword_650610841__rosidl_typesupport_fastrtps_c__pyext
+[4.646s] [100%] [32m[1mLinking C shared library rosidl_generator_py/myword_650610841/myword_650610841_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.674s] [100%] Built target myword_650610841__rosidl_typesupport_c__pyext
+[4.682s] Invoked command in '/home/robot_ws/build/myword_650610841' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot_ws/build/myword_650610841 -- -j16 -l16
+[4.690s] Invoking command in '/home/robot_ws/build/myword_650610841': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robot_ws/build/myword_650610841
+[4.697s] -- Install configuration: ""
+[4.697s] -- Installing: /home/robot_ws/install/myword_650610841/share/ament_index/resource_index/rosidl_interfaces/myword_650610841
+[4.697s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841
+[4.697s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg
+[4.697s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/rosidl_generator_c__visibility_control.h
+[4.697s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail
+[4.697s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/num__type_support.h
+[4.698s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/num__functions.h
+[4.698s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/num__functions.c
+[4.698s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/num__struct.h
+[4.698s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/num.h
+[4.698s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv
+[4.698s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/sum_four_int.h
+[4.698s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail
+[4.698s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_four_int__functions.c
+[4.698s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_four_int__struct.h
+[4.698s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_four_int__functions.h
+[4.698s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_four_int__type_support.h
+[4.699s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/environment/library_path.sh
+[4.699s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/environment/library_path.dsv
+[4.699s] -- Installing: /home/robot_ws/install/myword_650610841/lib/libmyword_650610841__rosidl_generator_c.so
+[4.699s] -- Set runtime path of "/home/robot_ws/install/myword_650610841/lib/libmyword_650610841__rosidl_generator_c.so" to ""
+[4.699s] -- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841
+[4.699s] -- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg
+[4.699s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.699s] -- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail
+[4.699s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[4.699s] -- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv
+[4.700s] -- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail
+[4.700s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_four_int__rosidl_typesupport_fastrtps_c.h
+[4.700s] -- Installing: /home/robot_ws/install/myword_650610841/lib/libmyword_650610841__rosidl_typesupport_fastrtps_c.so
+[4.700s] -- Set runtime path of "/home/robot_ws/install/myword_650610841/lib/libmyword_650610841__rosidl_typesupport_fastrtps_c.so" to ""
+[4.700s] -- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841
+[4.700s] -- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg
+[4.700s] -- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail
+[4.700s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/num__type_support.c
+[4.700s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/num__rosidl_typesupport_introspection_c.h
+[4.700s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.700s] -- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv
+[4.701s] -- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail
+[4.701s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_four_int__rosidl_typesupport_introspection_c.h
+[4.701s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_four_int__type_support.c
+[4.701s] -- Installing: /home/robot_ws/install/myword_650610841/lib/libmyword_650610841__rosidl_typesupport_introspection_c.so
+[4.701s] -- Set runtime path of "/home/robot_ws/install/myword_650610841/lib/libmyword_650610841__rosidl_typesupport_introspection_c.so" to ""
+[4.701s] -- Installing: /home/robot_ws/install/myword_650610841/lib/libmyword_650610841__rosidl_typesupport_c.so
+[4.701s] -- Set runtime path of "/home/robot_ws/install/myword_650610841/lib/libmyword_650610841__rosidl_typesupport_c.so" to ""
+[4.701s] -- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841
+[4.701s] -- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg
+[4.701s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/num.hpp
+[4.701s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.702s] -- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail
+[4.702s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/num__traits.hpp
+[4.702s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/num__struct.hpp
+[4.702s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/num__builder.hpp
+[4.702s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/num__type_support.hpp
+[4.702s] -- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv
+[4.702s] -- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail
+[4.702s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_four_int__type_support.hpp
+[4.702s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_four_int__struct.hpp
+[4.702s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_four_int__builder.hpp
+[4.702s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_four_int__traits.hpp
+[4.702s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/sum_four_int.hpp
+[4.702s] -- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841
+[4.702s] -- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg
+[4.702s] -- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail
+[4.703s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/dds_fastrtps
+[4.703s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[4.703s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.703s] -- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv
+[4.703s] -- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail
+[4.703s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_four_int__rosidl_typesupport_fastrtps_cpp.hpp
+[4.703s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/dds_fastrtps
+[4.703s] -- Installing: /home/robot_ws/install/myword_650610841/lib/libmyword_650610841__rosidl_typesupport_fastrtps_cpp.so
+[4.703s] -- Set runtime path of "/home/robot_ws/install/myword_650610841/lib/libmyword_650610841__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.703s] -- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841
+[4.703s] -- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg
+[4.703s] -- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail
+[4.703s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/num__type_support.cpp
+[4.704s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[4.704s] -- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv
+[4.704s] -- Up-to-date: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail
+[4.704s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_four_int__rosidl_typesupport_introspection_cpp.hpp
+[4.704s] -- Installing: /home/robot_ws/install/myword_650610841/include/myword_650610841/myword_650610841/srv/detail/sum_four_int__type_support.cpp
+[4.704s] -- Installing: /home/robot_ws/install/myword_650610841/lib/libmyword_650610841__rosidl_typesupport_introspection_cpp.so
+[4.704s] -- Set runtime path of "/home/robot_ws/install/myword_650610841/lib/libmyword_650610841__rosidl_typesupport_introspection_cpp.so" to ""
+[4.704s] -- Installing: /home/robot_ws/install/myword_650610841/lib/libmyword_650610841__rosidl_typesupport_cpp.so
+[4.704s] -- Set runtime path of "/home/robot_ws/install/myword_650610841/lib/libmyword_650610841__rosidl_typesupport_cpp.so" to ""
+[4.704s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/environment/pythonpath.sh
+[4.704s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/environment/pythonpath.dsv
+[4.704s] -- Installing: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841-0.0.0-py3.10.egg-info
+[4.704s] -- Installing: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.704s] -- Installing: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841-0.0.0-py3.10.egg-info/PKG-INFO
+[4.704s] -- Installing: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841-0.0.0-py3.10.egg-info/top_level.txt
+[4.705s] -- Installing: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.705s] -- Installing: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841
+[4.705s] -- Installing: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/myword_650610841_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.705s] -- Installing: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/msg
+[4.705s] -- Installing: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/msg/_num.py
+[4.705s] -- Installing: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/msg/_num_s.c
+[4.705s] -- Installing: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/msg/__init__.py
+[4.705s] -- Installing: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/_myword_650610841_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.705s] -- Installing: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/libmyword_650610841__rosidl_generator_py.so
+[4.705s] -- Installing: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/_myword_650610841_s.ep.rosidl_typesupport_c.c
+[4.705s] -- Installing: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/srv
+[4.705s] -- Installing: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/srv/_sum_four_int_s.c
+[4.705s] -- Installing: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/srv/__init__.py
+[4.705s] -- Installing: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/srv/_sum_four_int.py
+[4.705s] -- Installing: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/myword_650610841_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.706s] -- Installing: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/myword_650610841_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.706s] -- Installing: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/_myword_650610841_s.ep.rosidl_typesupport_introspection_c.c
+[4.706s] -- Installing: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/__init__.py
+[4.727s] Listing '/home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841'...
+[4.727s] Compiling '/home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/__init__.py'...
+[4.727s] Listing '/home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/msg'...
+[4.727s] Compiling '/home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/msg/__init__.py'...
+[4.727s] Compiling '/home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/msg/_num.py'...
+[4.727s] Listing '/home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/srv'...
+[4.728s] Compiling '/home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/srv/__init__.py'...
+[4.728s] Compiling '/home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/srv/_sum_four_int.py'...
+[4.731s] -- Installing: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/myword_650610841_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.731s] -- Set runtime path of "/home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/myword_650610841_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.731s] -- Installing: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/myword_650610841_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.732s] -- Set runtime path of "/home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/myword_650610841_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.732s] -- Installing: /home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/myword_650610841_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.732s] -- Set runtime path of "/home/robot_ws/install/myword_650610841/local/lib/python3.10/dist-packages/myword_650610841/myword_650610841_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.732s] -- Installing: /home/robot_ws/install/myword_650610841/lib/libmyword_650610841__rosidl_generator_py.so
+[4.733s] -- Set runtime path of "/home/robot_ws/install/myword_650610841/lib/libmyword_650610841__rosidl_generator_py.so" to ""
+[4.733s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/msg/Num.idl
+[4.733s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/srv/SumFourInt.idl
+[4.733s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/msg/Num.msg
+[4.733s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/srv/SumFourInt.srv
+[4.733s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/srv/SumFourInt_Request.msg
+[4.733s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/srv/SumFourInt_Response.msg
+[4.733s] -- Installing: /home/robot_ws/install/myword_650610841/share/ament_index/resource_index/package_run_dependencies/myword_650610841
+[4.734s] -- Installing: /home/robot_ws/install/myword_650610841/share/ament_index/resource_index/parent_prefix_path/myword_650610841
+[4.734s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/environment/ament_prefix_path.sh
+[4.734s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/environment/ament_prefix_path.dsv
+[4.734s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/environment/path.sh
+[4.734s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/environment/path.dsv
+[4.734s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/local_setup.bash
+[4.734s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/local_setup.sh
+[4.735s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/local_setup.zsh
+[4.735s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/local_setup.dsv
+[4.735s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/package.dsv
+[4.735s] -- Installing: /home/robot_ws/install/myword_650610841/share/ament_index/resource_index/packages/myword_650610841
+[4.735s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/export_myword_650610841__rosidl_generator_cExport.cmake
+[4.735s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/export_myword_650610841__rosidl_generator_cExport-noconfig.cmake
+[4.735s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/export_myword_650610841__rosidl_typesupport_fastrtps_cExport.cmake
+[4.736s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/export_myword_650610841__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.736s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/myword_650610841__rosidl_typesupport_introspection_cExport.cmake
+[4.737s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/myword_650610841__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.738s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/myword_650610841__rosidl_typesupport_cExport.cmake
+[4.739s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/myword_650610841__rosidl_typesupport_cExport-noconfig.cmake
+[4.740s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/export_myword_650610841__rosidl_generator_cppExport.cmake
+[4.741s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/export_myword_650610841__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.742s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/export_myword_650610841__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.743s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/myword_650610841__rosidl_typesupport_introspection_cppExport.cmake
+[4.744s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/myword_650610841__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.745s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/myword_650610841__rosidl_typesupport_cppExport.cmake
+[4.748s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/myword_650610841__rosidl_typesupport_cppExport-noconfig.cmake
+[4.748s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/export_myword_650610841__rosidl_generator_pyExport.cmake
+[4.748s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/export_myword_650610841__rosidl_generator_pyExport-noconfig.cmake
+[4.748s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/rosidl_cmake-extras.cmake
+[4.748s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.748s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/ament_cmake_export_libraries-extras.cmake
+[4.749s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/ament_cmake_export_targets-extras.cmake
+[4.749s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.749s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.749s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.749s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/myword_650610841Config.cmake
+[4.749s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/cmake/myword_650610841Config-version.cmake
+[4.749s] -- Installing: /home/robot_ws/install/myword_650610841/share/myword_650610841/package.xml
+[4.752s] Invoked command in '/home/robot_ws/build/myword_650610841' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robot_ws/build/myword_650610841

@@ -1,0 +1,4 @@
+source;share/myword_650610841/environment/ament_prefix_path.sh
+source;share/myword_650610841/environment/library_path.sh
+source;share/myword_650610841/environment/path.sh
+source;share/myword_650610841/environment/pythonpath.sh

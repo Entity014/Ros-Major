@@ -24,3 +24,8 @@ services:
       # - ${XAUTHORITY:-$HOME/.Xauthority}:/root/.Xauthority:rw
       # mount workspace
       - ./robot_ws:/home/robot_ws:rw
+  
+  lidar:
+    extends: turtlebot_compose
+    command: bash -c "source ~/.bashrc && ros2 launch 650610841_final lidar.launch.py"
+

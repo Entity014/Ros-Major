@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/assign4_650610841/assign4_650610841.egg-info/PKG-INFO
+writing dependency_links to ../../build/assign4_650610841/assign4_650610841.egg-info/dependency_links.txt
+writing entry points to ../../build/assign4_650610841/assign4_650610841.egg-info/entry_points.txt
+writing requirements to ../../build/assign4_650610841/assign4_650610841.egg-info/requires.txt
+writing top-level names to ../../build/assign4_650610841/assign4_650610841.egg-info/top_level.txt
+reading manifest file '../../build/assign4_650610841/assign4_650610841.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/assign4_650610841/assign4_650610841.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying resource/assign4_650610841 -> /home/robot_ws/install/assign4_650610841/share/ament_index/resource_index/packages
+copying package.xml -> /home/robot_ws/install/assign4_650610841/share/assign4_650610841
+running install_egg_info
+Copying ../../build/assign4_650610841/assign4_650610841.egg-info to /home/robot_ws/install/assign4_650610841/lib/python3.10/site-packages/assign4_650610841-0.0.0-py3.10.egg-info
+running install_scripts
+Installing lidar script to /home/robot_ws/install/assign4_650610841/lib/650610841_final
+writing list of installed files to '/home/robot_ws/build/assign4_650610841/install.log'

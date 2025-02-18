@@ -1,0 +1,40 @@
+[1.568s] Invoking command in '/home/robot_ws/src/assign3_650610841': PYTHONPATH=/home/robot_ws/build/assign3_650610841/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot_ws/install/assign3_650610841/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/assign3_650610841 build --build-base /home/robot_ws/build/assign3_650610841/build install --record /home/robot_ws/build/assign3_650610841/install.log --single-version-externally-managed install_data
+[2.712s] running egg_info
+[2.716s] creating ../../build/assign3_650610841/assign3_650610841.egg-info
+[2.717s] writing ../../build/assign3_650610841/assign3_650610841.egg-info/PKG-INFO
+[2.718s] writing dependency_links to ../../build/assign3_650610841/assign3_650610841.egg-info/dependency_links.txt
+[2.720s] writing entry points to ../../build/assign3_650610841/assign3_650610841.egg-info/entry_points.txt
+[2.720s] writing requirements to ../../build/assign3_650610841/assign3_650610841.egg-info/requires.txt
+[2.720s] writing top-level names to ../../build/assign3_650610841/assign3_650610841.egg-info/top_level.txt
+[2.722s] writing manifest file '../../build/assign3_650610841/assign3_650610841.egg-info/SOURCES.txt'
+[2.733s] reading manifest file '../../build/assign3_650610841/assign3_650610841.egg-info/SOURCES.txt'
+[2.733s] adding license file 'LICENSE'
+[2.736s] writing manifest file '../../build/assign3_650610841/assign3_650610841.egg-info/SOURCES.txt'
+[2.737s] running build
+[2.739s] running build_py
+[2.741s] creating /home/robot_ws/build/assign3_650610841/build
+[2.741s] creating /home/robot_ws/build/assign3_650610841/build/lib
+[2.742s] creating /home/robot_ws/build/assign3_650610841/build/lib/assign3_650610841
+[2.743s] copying assign3_650610841/fibonacci_action_client.py -> /home/robot_ws/build/assign3_650610841/build/lib/assign3_650610841
+[2.744s] copying assign3_650610841/__init__.py -> /home/robot_ws/build/assign3_650610841/build/lib/assign3_650610841
+[2.746s] copying assign3_650610841/fibonacci_action_server.py -> /home/robot_ws/build/assign3_650610841/build/lib/assign3_650610841
+[2.746s] running install
+[2.746s] running install_lib
+[2.747s] creating /home/robot_ws/install/assign3_650610841/lib/python3.10/site-packages/assign3_650610841
+[2.749s] copying /home/robot_ws/build/assign3_650610841/build/lib/assign3_650610841/fibonacci_action_client.py -> /home/robot_ws/install/assign3_650610841/lib/python3.10/site-packages/assign3_650610841
+[2.750s] copying /home/robot_ws/build/assign3_650610841/build/lib/assign3_650610841/__init__.py -> /home/robot_ws/install/assign3_650610841/lib/python3.10/site-packages/assign3_650610841
+[2.750s] copying /home/robot_ws/build/assign3_650610841/build/lib/assign3_650610841/fibonacci_action_server.py -> /home/robot_ws/install/assign3_650610841/lib/python3.10/site-packages/assign3_650610841
+[2.753s] byte-compiling /home/robot_ws/install/assign3_650610841/lib/python3.10/site-packages/assign3_650610841/fibonacci_action_client.py to fibonacci_action_client.cpython-310.pyc
+[2.757s] byte-compiling /home/robot_ws/install/assign3_650610841/lib/python3.10/site-packages/assign3_650610841/__init__.py to __init__.cpython-310.pyc
+[2.758s] byte-compiling /home/robot_ws/install/assign3_650610841/lib/python3.10/site-packages/assign3_650610841/fibonacci_action_server.py to fibonacci_action_server.cpython-310.pyc
+[2.759s] running install_data
+[2.759s] creating /home/robot_ws/install/assign3_650610841/share/ament_index
+[2.760s] creating /home/robot_ws/install/assign3_650610841/share/ament_index/resource_index
+[2.760s] creating /home/robot_ws/install/assign3_650610841/share/ament_index/resource_index/packages
+[2.761s] copying resource/assign3_650610841 -> /home/robot_ws/install/assign3_650610841/share/ament_index/resource_index/packages
+[2.762s] copying package.xml -> /home/robot_ws/install/assign3_650610841/share/assign3_650610841
+[2.763s] running install_egg_info
+[2.772s] Copying ../../build/assign3_650610841/assign3_650610841.egg-info to /home/robot_ws/install/assign3_650610841/lib/python3.10/site-packages/assign3_650610841-0.0.0-py3.10.egg-info
+[2.777s] running install_scripts
+[2.855s] writing list of installed files to '/home/robot_ws/build/assign3_650610841/install.log'
+[2.957s] Invoked command in '/home/robot_ws/src/assign3_650610841' returned '0': PYTHONPATH=/home/robot_ws/build/assign3_650610841/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot_ws/install/assign3_650610841/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/assign3_650610841 build --build-base /home/robot_ws/build/assign3_650610841/build install --record /home/robot_ws/build/assign3_650610841/install.log --single-version-externally-managed install_data

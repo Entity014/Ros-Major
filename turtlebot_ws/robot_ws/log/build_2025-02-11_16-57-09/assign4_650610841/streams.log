@@ -1,0 +1,22 @@
+[1.140s] Invoking command in '/home/robot_ws/src/assign4_650610841': PYTHONPATH=/home/robot_ws/build/assign4_650610841/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot_ws/install/assign4_650610841/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/assign4_650610841 build --build-base /home/robot_ws/build/assign4_650610841/build install --record /home/robot_ws/build/assign4_650610841/install.log --single-version-externally-managed install_data
+[1.421s] running egg_info
+[1.422s] writing ../../build/assign4_650610841/assign4_650610841.egg-info/PKG-INFO
+[1.422s] writing dependency_links to ../../build/assign4_650610841/assign4_650610841.egg-info/dependency_links.txt
+[1.422s] writing entry points to ../../build/assign4_650610841/assign4_650610841.egg-info/entry_points.txt
+[1.422s] writing requirements to ../../build/assign4_650610841/assign4_650610841.egg-info/requires.txt
+[1.423s] writing top-level names to ../../build/assign4_650610841/assign4_650610841.egg-info/top_level.txt
+[1.426s] reading manifest file '../../build/assign4_650610841/assign4_650610841.egg-info/SOURCES.txt'
+[1.426s] adding license file 'LICENSE'
+[1.427s] writing manifest file '../../build/assign4_650610841/assign4_650610841.egg-info/SOURCES.txt'
+[1.427s] running build
+[1.427s] running build_py
+[1.428s] running install
+[1.428s] running install_lib
+[1.430s] running install_data
+[1.430s] running install_egg_info
+[1.433s] removing '/home/robot_ws/install/assign4_650610841/lib/python3.10/site-packages/assign4_650610841-0.0.0-py3.10.egg-info' (and everything under it)
+[1.434s] Copying ../../build/assign4_650610841/assign4_650610841.egg-info to /home/robot_ws/install/assign4_650610841/lib/python3.10/site-packages/assign4_650610841-0.0.0-py3.10.egg-info
+[1.435s] running install_scripts
+[1.466s] Installing lidar script to /home/robot_ws/install/assign4_650610841/lib/650610841_final
+[1.467s] writing list of installed files to '/home/robot_ws/build/assign4_650610841/install.log'
+[1.497s] Invoked command in '/home/robot_ws/src/assign4_650610841' returned '0': PYTHONPATH=/home/robot_ws/build/assign4_650610841/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot_ws/install/assign4_650610841/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/assign4_650610841 build --build-base /home/robot_ws/build/assign4_650610841/build install --record /home/robot_ws/build/assign4_650610841/install.log --single-version-externally-managed install_data

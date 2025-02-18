@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from lidar_interfaces/srv/Break.srv
+// generated code does not contain a copyright notice
+
+
+module lidar_interfaces {
+  module srv {
+    struct Break_Request {
+      sequence<int64> angles;
+    };
+    struct Break_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};
