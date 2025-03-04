@@ -1,0 +1,4 @@
+[console_scripts]
+bug = object_detect.bug2_algo:main
+camera = object_detect.camera:main
+

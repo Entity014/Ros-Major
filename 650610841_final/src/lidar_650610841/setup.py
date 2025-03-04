@@ -28,7 +28,6 @@ setup(
             "lidar_controller = lidar_650610841.lidar_controller:main",
             "lidar_collision = lidar_650610841.lidar_collision:main",
             "lidar_convert = lidar_650610841.lidar_convert:main",
-            "teleop_python = lidar_650610841.teleop_python:main",
         ],
     },
 )

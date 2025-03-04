@@ -1,7 +1,6 @@
 import rclpy
 from rclpy.node import Node
 from rclpy import qos
-from numpy import linspace, sin, inf
 from lidar_interfaces.msg import Scan
 from sensor_msgs.msg import LaserScan
 

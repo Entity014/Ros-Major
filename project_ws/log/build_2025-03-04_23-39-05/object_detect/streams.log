@@ -1,0 +1,26 @@
+[0.441s] Invoking command in '/home/entity014/Ros-Major/project_ws/src/object_detect': PYTHONPATH=/home/entity014/Ros-Major/project_ws/build/object_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/entity014/Ros-Major/project_ws/install/object_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_detect build --build-base /home/entity014/Ros-Major/project_ws/build/object_detect/build install --record /home/entity014/Ros-Major/project_ws/build/object_detect/install.log --single-version-externally-managed install_data
+[0.611s] running egg_info
+[0.612s] writing ../../build/object_detect/object_detect.egg-info/PKG-INFO
+[0.612s] writing dependency_links to ../../build/object_detect/object_detect.egg-info/dependency_links.txt
+[0.612s] writing entry points to ../../build/object_detect/object_detect.egg-info/entry_points.txt
+[0.612s] writing requirements to ../../build/object_detect/object_detect.egg-info/requires.txt
+[0.612s] writing top-level names to ../../build/object_detect/object_detect.egg-info/top_level.txt
+[0.614s] reading manifest file '../../build/object_detect/object_detect.egg-info/SOURCES.txt'
+[0.614s] adding license file 'LICENSE'
+[0.615s] writing manifest file '../../build/object_detect/object_detect.egg-info/SOURCES.txt'
+[0.615s] running build
+[0.615s] running build_py
+[0.615s] copying object_detect/bug2_algo.py -> /home/entity014/Ros-Major/project_ws/build/object_detect/build/lib/object_detect
+[0.616s] running install
+[0.616s] running install_lib
+[0.617s] copying /home/entity014/Ros-Major/project_ws/build/object_detect/build/lib/object_detect/bug2_algo.py -> /home/entity014/Ros-Major/project_ws/install/object_detect/lib/python3.10/site-packages/object_detect
+[0.618s] byte-compiling /home/entity014/Ros-Major/project_ws/install/object_detect/lib/python3.10/site-packages/object_detect/bug2_algo.py to bug2_algo.cpython-310.pyc
+[0.620s] running install_data
+[0.620s] running install_egg_info
+[0.622s] removing '/home/entity014/Ros-Major/project_ws/install/object_detect/lib/python3.10/site-packages/object_detect-0.0.0-py3.10.egg-info' (and everything under it)
+[0.622s] Copying ../../build/object_detect/object_detect.egg-info to /home/entity014/Ros-Major/project_ws/install/object_detect/lib/python3.10/site-packages/object_detect-0.0.0-py3.10.egg-info
+[0.623s] running install_scripts
+[0.639s] Installing bug script to /home/entity014/Ros-Major/project_ws/install/object_detect/lib/object_detect
+[0.639s] Installing camera script to /home/entity014/Ros-Major/project_ws/install/object_detect/lib/object_detect
+[0.639s] writing list of installed files to '/home/entity014/Ros-Major/project_ws/build/object_detect/install.log'
+[0.656s] Invoked command in '/home/entity014/Ros-Major/project_ws/src/object_detect' returned '0': PYTHONPATH=/home/entity014/Ros-Major/project_ws/build/object_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/entity014/Ros-Major/project_ws/install/object_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_detect build --build-base /home/entity014/Ros-Major/project_ws/build/object_detect/build install --record /home/entity014/Ros-Major/project_ws/build/object_detect/install.log --single-version-externally-managed install_data

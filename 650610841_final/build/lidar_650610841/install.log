@@ -1,12 +1,10 @@
 /home/entity014/Ros-Major/650610841_final/install/lidar_650610841/lib/python3.10/site-packages/lidar_650610841/lidar_convert.py
 /home/entity014/Ros-Major/650610841_final/install/lidar_650610841/lib/python3.10/site-packages/lidar_650610841/lidar_collision.py
 /home/entity014/Ros-Major/650610841_final/install/lidar_650610841/lib/python3.10/site-packages/lidar_650610841/lidar_controller.py
-/home/entity014/Ros-Major/650610841_final/install/lidar_650610841/lib/python3.10/site-packages/lidar_650610841/teleop_python.py
 /home/entity014/Ros-Major/650610841_final/install/lidar_650610841/lib/python3.10/site-packages/lidar_650610841/__init__.py
 /home/entity014/Ros-Major/650610841_final/install/lidar_650610841/lib/python3.10/site-packages/lidar_650610841/__pycache__/lidar_convert.cpython-310.pyc
 /home/entity014/Ros-Major/650610841_final/install/lidar_650610841/lib/python3.10/site-packages/lidar_650610841/__pycache__/lidar_collision.cpython-310.pyc
 /home/entity014/Ros-Major/650610841_final/install/lidar_650610841/lib/python3.10/site-packages/lidar_650610841/__pycache__/lidar_controller.cpython-310.pyc
-/home/entity014/Ros-Major/650610841_final/install/lidar_650610841/lib/python3.10/site-packages/lidar_650610841/__pycache__/teleop_python.cpython-310.pyc
 /home/entity014/Ros-Major/650610841_final/install/lidar_650610841/lib/python3.10/site-packages/lidar_650610841/__pycache__/__init__.cpython-310.pyc
 /home/entity014/Ros-Major/650610841_final/install/lidar_650610841/share/ament_index/resource_index/packages/lidar_650610841
 /home/entity014/Ros-Major/650610841_final/install/lidar_650610841/share/lidar_650610841/package.xml
@@ -21,4 +19,3 @@
 /home/entity014/Ros-Major/650610841_final/install/lidar_650610841/lib/lidar_650610841/lidar_collision
 /home/entity014/Ros-Major/650610841_final/install/lidar_650610841/lib/lidar_650610841/lidar_controller
 /home/entity014/Ros-Major/650610841_final/install/lidar_650610841/lib/lidar_650610841/lidar_convert
-/home/entity014/Ros-Major/650610841_final/install/lidar_650610841/lib/lidar_650610841/teleop_python

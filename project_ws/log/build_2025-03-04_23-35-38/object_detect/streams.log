@@ -1,0 +1,29 @@
+[0.453s] Invoking command in '/home/entity014/Ros-Major/project_ws/src/object_detect': PYTHONPATH=/home/entity014/Ros-Major/project_ws/build/object_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/entity014/Ros-Major/project_ws/install/object_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_detect build --build-base /home/entity014/Ros-Major/project_ws/build/object_detect/build install --record /home/entity014/Ros-Major/project_ws/build/object_detect/install.log --single-version-externally-managed install_data
+[0.606s] running egg_info
+[0.607s] writing ../../build/object_detect/object_detect.egg-info/PKG-INFO
+[0.607s] writing dependency_links to ../../build/object_detect/object_detect.egg-info/dependency_links.txt
+[0.607s] writing entry points to ../../build/object_detect/object_detect.egg-info/entry_points.txt
+[0.607s] writing requirements to ../../build/object_detect/object_detect.egg-info/requires.txt
+[0.607s] writing top-level names to ../../build/object_detect/object_detect.egg-info/top_level.txt
+[0.608s] reading manifest file '../../build/object_detect/object_detect.egg-info/SOURCES.txt'
+[0.608s] adding license file 'LICENSE'
+[0.609s] writing manifest file '../../build/object_detect/object_detect.egg-info/SOURCES.txt'
+[0.609s] running build
+[0.609s] running build_py
+[0.609s] copying object_detect/teleop_python.py -> /home/entity014/Ros-Major/project_ws/build/object_detect/build/lib/object_detect
+[0.609s] copying object_detect/bug2_algo.py -> /home/entity014/Ros-Major/project_ws/build/object_detect/build/lib/object_detect
+[0.609s] running install
+[0.609s] running install_lib
+[0.610s] copying /home/entity014/Ros-Major/project_ws/build/object_detect/build/lib/object_detect/teleop_python.py -> /home/entity014/Ros-Major/project_ws/install/object_detect/lib/python3.10/site-packages/object_detect
+[0.610s] copying /home/entity014/Ros-Major/project_ws/build/object_detect/build/lib/object_detect/bug2_algo.py -> /home/entity014/Ros-Major/project_ws/install/object_detect/lib/python3.10/site-packages/object_detect
+[0.610s] byte-compiling /home/entity014/Ros-Major/project_ws/install/object_detect/lib/python3.10/site-packages/object_detect/teleop_python.py to teleop_python.cpython-310.pyc
+[0.610s] byte-compiling /home/entity014/Ros-Major/project_ws/install/object_detect/lib/python3.10/site-packages/object_detect/bug2_algo.py to bug2_algo.cpython-310.pyc
+[0.611s] running install_data
+[0.612s] running install_egg_info
+[0.613s] removing '/home/entity014/Ros-Major/project_ws/install/object_detect/lib/python3.10/site-packages/object_detect-0.0.0-py3.10.egg-info' (and everything under it)
+[0.613s] Copying ../../build/object_detect/object_detect.egg-info to /home/entity014/Ros-Major/project_ws/install/object_detect/lib/python3.10/site-packages/object_detect-0.0.0-py3.10.egg-info
+[0.614s] running install_scripts
+[0.627s] Installing bug script to /home/entity014/Ros-Major/project_ws/install/object_detect/lib/object_detect
+[0.627s] Installing camera script to /home/entity014/Ros-Major/project_ws/install/object_detect/lib/object_detect
+[0.628s] writing list of installed files to '/home/entity014/Ros-Major/project_ws/build/object_detect/install.log'
+[0.645s] Invoked command in '/home/entity014/Ros-Major/project_ws/src/object_detect' returned '0': PYTHONPATH=/home/entity014/Ros-Major/project_ws/build/object_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/entity014/Ros-Major/project_ws/install/object_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_detect build --build-base /home/entity014/Ros-Major/project_ws/build/object_detect/build install --record /home/entity014/Ros-Major/project_ws/build/object_detect/install.log --single-version-externally-managed install_data
